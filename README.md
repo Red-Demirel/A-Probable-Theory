@@ -27,6 +27,7 @@ This repository is **an open scientific collaboration** — we invite contributi
 The A Probable Theory (APT) (earlier workname:Koronda) is an ontological model. We uloaded Relativistic Field Density Gravity (RFDG) earlier.
 While RFDG correctly posited that gravity arises from a vortex-effect within an underlying medium (Praesto), the APT framework provides the necessary base for this phenomenon.
 While RFDG starts by postulating the existence and dynamics of the Praesto field, APT shows that the gravitational Praesto vortex is an emergent consequence of the fundamental Action-Pulse and the derived Topological Constraint that defines mass.
+
 ---
 
 ## Contribution Guidelines
