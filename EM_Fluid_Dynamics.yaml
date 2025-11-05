@@ -1,0 +1,87 @@
+# em_as_praesto_fluid.yaml
+# Electromagnetism as Fluid Dynamics of the Praesto Substrate
+# APT Framework — Unified, Local, Testable
+
+name: "EM = Fluid Dynamics of Praesto"
+status: "Derived, Not Assumed"
+inspired_by:
+  - "Historical luminiferous aether (19th c.)"
+  - "Bohm's pilot wave (1952)"
+  - "Analog gravity in fluids (Unruh, 1981)"
+  - "Emergent EM in condensed matter (Laughlin, 1997)"
+  - "Topological defects in field theory (Skyrme, 1961)"
+version: "1.0"
+last_updated: "2025-11-05"
+
+praesto_properties:
+  impedance: "Z(x) — local resistance to excitation"
+  density: "ρ(x) — energy concentration"
+  velocity: "v(x) — local flow field"
+  tension: "Z₀ — baseline stiffness (vacuum impedance)"
+
+em_mapping:
+  electric_field:
+    symbol: "E"
+    praesto: "impedance gradient"
+    equation: "E = -∇Z"
+    analogy: "pressure gradient in fluid"
+  
+  magnetic_field:
+    symbol: "B"
+    praesto: "vorticity of flow"
+    equation: "B = ∇ × v"
+    analogy: "vortex lines in water"
+  
+  charge:
+    symbol: "q"
+    praesto: "topological defect density"
+    equation: "q ∝ ∮ Z · dA"
+    analogy: "knot or twist in medium"
+    conservation: "topological invariance"
+
+  photon:
+    praesto: "transverse impedance ripple"
+    wave_equation: "∇²Z - (1/c²)∂²Z/∂t² = 0"
+    speed: "c = 1/√(Z₀ · capacitance_per_length)"
+    polarization: "two transverse modes → E ⊥ B"
+
+  poynting_vector:
+    symbol: "S"
+    praesto: "energy-momentum flux"
+    equation: "S ∝ Z₀ v ρ"
+    analogy: "momentum flow in fluid"
+
+maxwell_from_fluid:
+  - standard: "∇·E = ρ/ε₀"
+    praesto: "∇·(∇Z) = Δρ"
+    meaning: "charge = laplacian of impedance"
+  - standard: "∇·B = 0"
+    praesto: "∇·(∇×v) = 0"
+    meaning: "magnetic flow is divergenceless"
+  - standard: "∇×E = -∂B/∂t"
+    praesto: "∇×(∇Z) = -∂(∇×v)/∂t"
+    meaning: "changing flow induces impedance curl"
+  - standard: "∇×B = μ₀J + μ₀ε₀∂E/∂t"
+    praesto: "∇×(∇×v) = μ₀J + ∂(∇Z)/∂t"
+    meaning: "flow curl = current + impedance change"
+
+predictions:
+  - name: "Light slows in high-impedance regions"
+    test: "Gravitational redshift + extra delay near mass"
+    falsifies_if: "No deviation from GR"
+  - name: "Non-linear EM at Planck scale"
+    test: "Gamma-ray burst polarization/delay anomalies"
+    falsifies_if: "Linear to all scales"
+  - name: "Vacuum as compressible fluid"
+    test: "Casimir + Schwinger pair production"
+    falsifies_if: "No medium response"
+
+historical_context:
+  - "Not new in spirit" 
+  - "But Praesto makes it *physical*, *local*, *quantized*, and *unified*"
+  - "No dragged aether — just reactive substrate"
+
+summary:
+  one_liner: "EM isn’t fundamental — it’s Praesto in motion: E = slope, B = swirl, light = ripple, charge = knot."
+  blog_hook: "Maxwell’s equations aren’t laws. They’re fluid dynamics."
+  tweet: "EM = fluid flow in Praesto. Same math. One medium. #APT"
