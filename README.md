@@ -15,7 +15,22 @@ This repository is **an open scientific collaboration** — we invite contributi
 - Connect APT with existing physical frameworks (QFT, thermodynamics, general relativity)
 
 ---
+Core_Unification_Mapping.yaml (The Conceptual Chassis)
 
+This file serves as the conceptual bridge, demonstrating how the three major, often conflicting, contemporary physics frameworks are all reconciled within the Praesto ontology. It shows how the same Praesto dynamics are viewed through the mathematical lenses of QFT, String Theory, and Loop Quantum Gravity (LQG).
+
+    Purpose: Suggests APT's coherence by eliminating contradictions between existing mathematical models.
+
+    Key Content: Unification Claims, Emergence Mapping (QFT ripples, String knots, LQG links), and the Praesto's role as the single physical medium.
+---
+EM_Fluid_Dynamics.yaml (The Classical Bridge)
+
+This file provides the physical mechanism for Electromagnetism (EM) by mapping Maxwell's equations directly onto the fluid dynamics of the Praesto impedance field. It defines the electric field (E) as the impedance gradient and the magnetic field (B) as the flow vorticity (∇×v) of the substrate.
+
+    Purpose: Establishes the classical, testable link by showing how EM is derived from Praesto dynamics, supporting the pilot-wave and aether spirit in a modern, quantifiable context.
+
+    Key Content: Detailed E/B mapping, Derivation of the Wave Equation, and specific testable predictions related to light speed in high-impedance regions.
+---
 ## Core Principles
 - The omniverse follows probabilities, not arbitrary constants.
 - Perfect nothingness is impossible; Praesto must exist.
