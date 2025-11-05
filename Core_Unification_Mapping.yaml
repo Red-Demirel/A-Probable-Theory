@@ -1,0 +1,78 @@
+# A Probable Theory (APT) - Core and Unification Mapping
+APT:
+  core_axiom: "The Omniverse is the consequence of logical dilemmas following the path of probabilities"
+  status: "theoretical_framework"
+  
+  substrate:
+    name: "Praesto"
+    nature: "infinite_fuzzy_density_field"
+    primary_properties:
+      - "spatially_infinite"
+      - "no_intrinsic_time" 
+      - "variable_sharpness"
+      - "compressible_continuum"
+    dynamics:
+      resistance: "proportional_to_local_density"
+      fuzziness: "inversely_proportional_to_density"
+      gradients: "drive_all_motion"
+
+  emergence_cascade:
+    sequence:
+      1: "statistical_density_variations"
+      2: "density_gradients → pressure"
+      3: "entropy_gradients → emergent_time"
+      4: "condensation → droplets → monomers"
+      5: "polymerization → strings"
+      6: "chirality_emergence → handedness"
+
+  particle_ontology:
+    principle: "topological_configuration_defines_identity"
+    structures:
+      photon: 
+        topology: "2_open_helical_strings_opposite_chirality"
+        properties: ["massless", "spin_1", "net_chirality_zero"]
+      electron:
+        topology: "2_closed_möbius_loops_same_left_chirality"
+        properties: ["mass_me", "spin_½", "negative_charge"]
+      positron:
+        topology: "2_closed_möbius_loops_same_right_chirality" 
+        properties: ["mass_me", "spin_½", "positive_charge"]
+      neutrinos:
+        topology: "transitional_partial_closure"
+        properties: ["tiny_mass", "weak_interaction_only"]
+
+  cosmology:
+    paradigm: "mini_bang_cosmology"
+    key_differences:
+      big_bang: "rejected_universal_singularity"
+      expansion: "praesto_density_evolution_not_space_creation"
+      dark_matter: "non_linear_impedance_stiffening"
+      dark_energy: "decreasing_baseline_impedance"
+    testable_predictions:
+      - "spectral_shifts_from_local_ħ_eff_variations"
+      - "non_newtonian_orbital_behavior"
+      - "cmb_anomalies_from_topological_boundaries"
+
+  action_pulse_dynamics:
+    core_concept: "reality_evolves_through_quantized_action_pulses"
+    measurement_gap: "10^-18_s_instruments_vs_10^-20_s_pulses"
+    quantum_appearance: "unresolved_pulse_dynamics"
+
+  unification_claims:
+    general_relativity: "emerges_from_praesto_density_gradients"
+    quantum_mechanics: "emerges_from_unresolved_pulse_dynamics" 
+    standard_model: "particle_properties_from_topological_constraints"
+    existing_theories: "all_partially_describe_praesto_aspects"
+
+  experimental_alignment:
+    confirmed:
+      - "gravitational_lensing_matches_predictions"
+      - "galactic_rotation_without_dark_matter"
+    pending_tests:
+      - "ħ_eff_variations_via_spectral_analysis"
+      - "low_acceleration_orbital_anomalies"
+
+  references:
+    philosophical: ["wiltshire_timescape", "de_broglie_bohm", "dirac_large_numbers"]
+    experimental: ["casimir_effect", "lamb_shift", "aharonov_bohm"]
+    contemporary: ["loop_quantum_gravity", "causal_dynamical_triangulations"]
