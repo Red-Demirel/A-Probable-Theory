@@ -9,7 +9,7 @@ inspired_by:
   - "Bohm's pilot wave (1952)"
   - "Analog gravity in fluids (Unruh, 1981)"
   - "Emergent EM in condensed matter (Laughlin, 1997)"
-  - "Topological defects in field theory (Skyrme, 1961)"
+  - "Topological defects in field theory (Skyrme, 1961)" "Add: We use the expression 'topological constraint' alternatively"
 version: "1.0"
 last_updated: "2025-11-05"
 
@@ -34,9 +34,9 @@ em_mapping:
   
   charge:
     symbol: "q"
-    praesto: "topological defect density"
+    praesto: "topological constraint density"
     equation: "q ∝ ∮ Z · dA"
-    analogy: "knot or twist in medium"
+    analogy: "knot, loop or twist in medium"
     conservation: "topological invariance"
 
   photon:
