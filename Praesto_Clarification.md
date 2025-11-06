@@ -25,4 +25,49 @@ Praesto unifies:
 
     Field excitations, dark energy, and vacuum effects become natural behaviors of one underlying system.
 
+---
+### Electromagnetism as Fluid Dynamics of Praesto
+
+Electromagnetism is not a separate force; it is the **continuum mechanics** of the Praesto medium itself.
+
+| EM object       | Praesto fluid reality                     | Equation                     |
+|-----------------|-------------------------------------------|------------------------------|
+| Electric field  | Impedance gradient                        | E = −∇Z                      |
+| Magnetic field  | Vorticity of local flow                   | B = ∇×v                      |
+| Charge          | Topological knot / twist                  | q ∝ ∮ Z·dA                   |
+| Photon          | Transverse impedance ripple               | ∇²Z − (1/c²)∂²Z/∂t² = 0       |
+| Poynting vector | Energy-momentum flux in the fluid         | S ∝ Z₀ v ρ                    |
+
+Maxwell’s equations are **Navier-Stokes + continuity** written in impedance variables.
+
+### Gravitoelectromagnetism = Same Fluid, Different Sources
+
+Gravitoelectromagnetism (GEM) emerges **identically** when the sources are **mass-current knots** instead of charge knots.
+
+| GEM object      | Praesto fluid reality                     | Equation (weak field)        |
+|-----------------|-------------------------------------------|------------------------------|
+| Gravito-E       | Large-scale impedance gradient + flow acc. | g = −∇Z − ∂v/∂t              |
+| Gravito-B       | Large-scale vorticity                     | ω = ∇×v                      |
+| Mass density    | Knot concentration                        | ρ_m ∝ ρ_knots                |
+| Mass current    | Knot motion                               | J_m ∝ v_knots                |
+
+The GEM-Maxwell equations are **literally the same fluid equations** with a −4πG prefactor.  
+This is not analogy — it is **derivation**.
+
+### Teleparallelism = Torsion is Praesto Shear
+
+Teleparallel gravity (F(R), TEGR, etc.) describes spacetime curvature as **zero** but **torsion** as non-zero.  
+In Praesto:
+
+- Curvature Γ = 0 → **flat average impedance**  
+- Torsion T ≠ 0 → **local shear flows** in the medium (∇×v ≠ 0)
+
+The Weitzenböck connection is the **velocity gradient tensor** of Praesto flow.  
+Teleparallelism is therefore the **strong-field, fully non-linear fluid description** of the same substrate.
+
+> **One medium. Three mathematical languages.**  
+> QFT = ripples, GEM = macro-flows, Teleparallelism = shear+torsion.  
+> All are Praesto doing fluid dynamics at different scales.
+---
+
 Reality emerges by resolving uncertainty in the most probable way — and Praesto is the medium through which that resolution occurs, from Planck scale to cosmos.
