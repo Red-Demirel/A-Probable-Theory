@@ -1,0 +1,41 @@
+Praesto_Propagation_Model:
+  description: "Realistic propagation model: contract/relax fronts in a topo-elastic, action-pulse medium."
+  layers:
+    - id: 1
+      name: "Dual phase"
+      summary: "Linear superfluid response for small perturbations; elastic/topological stiffness when topology locks."
+    - id: 2
+      name: "Contract/relax"
+      summary: "Non-conservative impedance pumping: local Z increases (contract) then relaxes; propagation via impedance slope advection."
+    - id: 3
+      name: "Action-pulse grain"
+      summary: "Discrete action-kicks ΔA ≥ ħ; time is emergent as count of pulses; dynamics are update-driven not purely differential."
+    - id: 4
+      name: "Topological coupling"
+      summary: "Knots and closures stiffen Praesto locally: Z_local >> Z0; charge and quantization arise from boundary/topological constraints."
+    - id: 5
+      name: "Entropic dissipation"
+      summary: "Small non-conservative term (T_τ) introduces weak imaginary part in propagators → photon fatigue, partial redshift."
+
+  core_equation:
+    old_form: "∇²Z - (1/c²) ∂²Z/∂t² = 0"
+    new_form: |
+      ∇ · [ (Z0 + ΔZ_topo(x) + ΔZ_ent(x,t)) ∇ Z(x,t) ] = ℏ · Σ_k δA_k(x,t)
+    meaning: "Left-hand side: spatial divergence of local impedance-weighted gradient (contract/relax advection). Right-hand side: discrete action-pulse sources (sum of localized kicks)."
+
+  remarks:
+    - "Propagation is the advection of an impedance front: contraction ahead, relaxation behind."
+    - "Linear Maxwell limit recovered when ΔZ_topo → 0 and ΔZ_entropic ≪ Z0 (superfluid linear regime)."
+    - "Nonlinear GEM/elastic behavior arises where ΔZ_topo comparable to Z0 (topology-locked regions)."
+    - "Action-pulse sources are inherently discrete; continuous PDEs are emergent coarse-grain approximations."
+
+  tests_and_signatures:
+    - "Frequency-localization: measure local frequency shifts correlated with impedance proxies (magnetization, field strength)."
+    - "Photon fatigue: search for weak energy-dependent attenuation over Gpc consistent with small imaginary propagator term."
+    - "Dispersion anomalies: frequency-dependent group/phase velocity mismatches in high-impedance regions (near SMBH, high-field plasmas)."
+    - "Topology detection: localized persistent Z spikes (from M-string clusters) should correlate with non-Newtonian orbital perturbations."
+
+  next_steps:
+    - "Implement discrete pulse-driven lattice model (1D → 2D) to reproduce advection front dynamics."
+    - "Linearize about Z0 to extract Maxwell-like limit and identify effective permittivity/permeability."
+    - "Parameterize ΔZ_topo from M-string/particle density models and compare with observed lensing/rotation-curve anomalies."
