@@ -10,6 +10,12 @@ Modern physics already assumes a dynamic, space-filling substrate—not as a hyp
 
 Yet these models describe the same reality using fragmented concepts.
 
+## ⚛️ The Praesto Substrate: Beyond Aether
+
+The Praesto is not a static Aether; it is a **self-referential, electrolytic, fuzzy continuum** (L0) whose dynamical adaptation to energy is the source of all physical forces. Its ability to **contract and relax** in response to local energy density fundamentally distinguishes it from passive media.
+
+---
+
 Praesto, within APT, does not invent a new entity. It names the obvious: a single, coherent, reactive medium that physics already uses in practice. It eliminates semantic confusion—no obsolete “ether,” no contradiction—just the logical and ontological substrate implicit in all modern theories.
 Emergent Local Fields and the Nature of Mass
 
@@ -26,44 +32,40 @@ Praesto unifies:
     Field excitations, dark energy, and vacuum effects become natural behaviors of one underlying system.
 
 ---
-### Electromagnetism as Fluid Dynamics of Praesto
 
-Electromagnetism is not a separate force; it is the **continuum mechanics** of the Praesto medium itself.
+## ⚡ Electromagnetism as Fluid Dynamics of Praesto (The Local Response)
 
-| EM object       | Praesto fluid reality                     | Equation                     |
-|-----------------|-------------------------------------------|------------------------------|
-| Electric field  | Impedance gradient                        | E = −∇Z                      |
-| Magnetic field  | Vorticity of local flow                   | B = ∇×v                      |
-| Charge          | Topological knot / twist                  | q ∝ ∮ Z·dA                   |
-| Photon          | Transverse impedance ripple               | ∇²Z − (1/c²)∂²Z/∂t² = 0       |
-| Poynting vector | Energy-momentum flux in the fluid         | S ∝ Z₀ v ρ                    |
+Electromagnetism is not a separate force; it is the **linear, immediate continuum mechanics** of the Praesto medium's local response to the presence of matter.
 
-Maxwell’s equations are **Navier-Stokes + continuity** written in impedance variables.
+| EM object | Praesto fluid reality | Equation |
+| :--- | :--- | :--- |
+| Electric field | **Immediate Impedance Gradient** | $\mathbf{E} = −\nabla Z$ |
+| Magnetic field | Vorticity of local flow | $\mathbf{B} = \nabla \times \mathbf{v}$ |
+| Charge | **Topological Constraint** density | $q \propto \oint \mathbf{Z} \cdot d\mathbf{A}$ |
+| Photon | Transverse impedance ripple | $\nabla^2 Z − (1/c^2)\partial^2 Z/\partial t^2 = 0$ |
+| Poynting vector | Energy-momentum flux in the fluid | $\mathbf{S} \propto Z_0 \mathbf{v} \rho$ |
 
-### Gravitoelectromagnetism = Same Fluid, Different Sources
+Maxwell’s equations emerge from the **linearized fluctuations** of the $\mathbf{Praesto}$'s potential and velocity fields (the **Local Response**).
 
-Gravitoelectromagnetism (GEM) emerges **identically** when the sources are **mass-current knots** instead of charge knots.
+---
 
-| GEM object      | Praesto fluid reality                     | Equation (weak field)        |
-|-----------------|-------------------------------------------|------------------------------|
-| Gravito-E       | Large-scale impedance gradient + flow acc. | g = −∇Z − ∂v/∂t              |
-| Gravito-B       | Large-scale vorticity                     | ω = ∇×v                      |
-| Mass density    | Knot concentration                        | ρ_m ∝ ρ_knots                |
-| Mass current    | Knot motion                               | J_m ∝ v_knots                |
+## 🌌 Gravitoelectromagnetism = Same Fluid, Structural Adaptation (The Emergence Cascade)
 
-The GEM-Maxwell equations are **literally the same fluid equations** with a −4πG prefactor.  
-This is not analogy — it is **derivation**.
+**Gravitoelectromagnetism (GEM) and General Relativity** emerge when the $\mathbf{Praesto}$ substrate transitions from a linear, local response (EM) to a **non-linear, collective structural adaptation** (Gravity/Inertia).
 
-### Teleparallelism = Torsion is Praesto Shear
+This two-step **Emergence Cascade** clarifies the relationship:
 
-Teleparallel gravity (F(R), TEGR, etc.) describes spacetime curvature as **zero** but **torsion** as non-zero.  
-In Praesto:
+1.  **Local Response (EM):** Topological constraints (mass/charge) generate local EM energy ($\mathbf{E}$ and $\mathbf{B}$).
+2.  **Global Adaptation (Gravity/Inertia):** The sustained EM energy acts as a strain on the substrate, forcing the $\mathbf{Praesto}$ to **contract** its structure. This non-linear contraction is the source of gravity and inertia.
 
-- Curvature Γ = 0 → **flat average impedance**  
-- Torsion T ≠ 0 → **local shear flows** in the medium (∇×v ≠ 0)
+The GEM-Maxwell equations are **literally the same fluid equations** written for this **non-linear, long-term adaptation** with a $-4\pi G$ prefactor. This is not analogy — it is **derivation**.
 
-The Weitzenböck connection is the **velocity gradient tensor** of Praesto flow.  
-Teleparallelism is therefore the **strong-field, fully non-linear fluid description** of the same substrate.
+| GEM object | Praesto fluid reality | Equation (weak field) |
+| :--- | :--- | :--- |
+| Gravito-E | Large-scale impedance gradient + flow acc. | $\mathbf{g} = −\nabla Z − \partial \mathbf{v} / \partial t$ |
+| Gravito-B | Large-scale vorticity | $\boldsymbol{\omega} = \nabla \times \mathbf{v}$ |
+| Mass density | **Knot Concentration (Sustained Contraction)** | $\rho_m \propto \rho_{\text{knots}}$ |
+| Mass current | Knot motion | $\mathbf{J}_m \propto \mathbf{v}_{\text{knots}}$ |
 
 > **One medium. Three mathematical languages.**  
 > QFT = ripples, GEM = macro-flows, Teleparallelism = shear+torsion.  
