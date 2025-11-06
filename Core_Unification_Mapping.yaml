@@ -32,10 +32,10 @@ APT:
         topology: "2_open_helical_strings_opposite_chirality"
         properties: ["massless", "spin_1", "net_chirality_zero"]
       electron:
-        topology: "2_closed_möbius_loops_same_left_chirality"
+        topology: "2_strings_same_left_chirality, a_closed_möbius_loop"
         properties: ["mass_me", "spin_½", "negative_charge"]
       positron:
-        topology: "2_closed_möbius_loops_same_right_chirality" 
+        topology: "2_strings_same_right_chirality, a_closed_möbius_loop" 
         properties: ["mass_me", "spin_½", "positive_charge"]
       neutrinos:
         topology: "transitional_partial_closure"
