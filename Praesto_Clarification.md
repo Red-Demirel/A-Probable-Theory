@@ -7,7 +7,7 @@ Modern physics already assumes a dynamic, space-filling substrate—not as a hyp
     Cosmology invokes dark energy as a uniform background density that acts everywhere simultaneously, countering gravitational collapse through an instantaneous expansive effect.
 
     Quantum mechanics depends on vacuum fluctuations and virtual particle exchanges—processes that require an active, responsive medium.
-
+    
 Yet these models describe the same reality using fragmented concepts.
 
 ## ⚛️ The Praesto Substrate: Beyond Aether
@@ -30,6 +30,20 @@ Praesto unifies:
     Local impedance and density variations in this medium give rise to mass, energy, and gravitation.
 
     Field excitations, dark energy, and vacuum effects become natural behaviors of one underlying system.
+
+    
+### Z₀: Not a Constant — A Statistical Destiny
+
+| Usual                    | A Probable Theory                                  |
+|--------------------------|----------------------------------------------------|
+| Z₀ = fixed global value  | **Z₀ = ⟨Z(x)⟩ over cosmic scales**                 |
+| Z₀ prevents Z=0          | **Z=0 allowed locally — but averages out**         |
+| Z₀ is input              | **Z₀ is output of action-pulse statistics**        |
+
+
+Z(x) ∈ (0, ∞)
+⟨Z⟩_V→∞ = Z₀ = 273 Ω
+→ c, m_e, m_W, α all follow
 
 ---
 
