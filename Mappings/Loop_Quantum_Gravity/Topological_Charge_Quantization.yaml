@@ -1,0 +1,20 @@
+# LQG Topological Charge Quantization
+# See identical QFT version: [../Quantum_Field_Theory/Topological_Charge_Quantization.yaml](../Quantum_Field_Theory/Topological_Charge_Quantization.yaml)
+
+status: "mirrored_from_qft"
+source: "[QFT version →](../Quantum_Field_Theory/Topological_Charge_Quantization.yaml)"
+praesto_identity: "∮ Z · dA = n × Z₀ ħ"
+
+lqg_interpretation:
+  flux: "edge piercing knot surface"
+  area_quantum: "n × 4π l_Pl²"
+  charge_link: "same n as QFT winding"
+
+note: |
+  **This is the *same math* as QFT.**  
+  Only the language changes:  
+  - QFT: `ψ(x)` circles → **charge**  
+  - LQG: edge flux → **area**  
+  - Praesto: both = **impedance through knot**
+
+  Full derivation: [QFT mapping](../qft_topological_charge.yaml)
