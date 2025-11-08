@@ -218,7 +218,7 @@ Theoretical_Advantages:
 # =========================================================================
 Testable_Predictions:
   - "Quarks should show internal structure at sufficient resolution"
-  - "Leptons should remain pointlike at all scales (fundamental knots)"
+  - "Leptons should remain simple topological knots at all scales (fundamental knots)"
   - "Specific mass relationships from knot topologies"
   - "Novel particles as undiscovered knot configurations"
 
