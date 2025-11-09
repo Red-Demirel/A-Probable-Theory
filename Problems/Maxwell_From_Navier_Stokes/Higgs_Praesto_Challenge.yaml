@@ -1,0 +1,280 @@
+# Remaining Challenges: Higgs-Praesto EM Framework
+# A Probable Theory (APT) / Koronda Project
+# Location: /problems/01_em_framework_open_problems.yaml
+
+challenge_set_id: "APT-PROB-001-REMAINING"
+title: "Open Problems in Higgs-Praesto Electromagnetic Framework"
+date: "2025-11-06"
+prerequisite: "Understanding of /mappings/higgs_praesto_em_derivation.yaml"
+
+overview: |
+  The mapping document establishes that Maxwell's equations emerge from a
+  Higgs-like Lagrangian with Praesto fields. However, several critical steps
+  require rigorous completion, quantitative verification, and extension to
+  non-linear regimes. These challenges range from advanced undergraduate to
+  postdoc difficulty.
+
+challenge_tier_1_complete_derivations:
+  difficulty: "advanced_undergraduate_to_graduate"
+  timeline: "1-3 months each"
+  
+  problem_1a_explicit_constant_calculation:
+    title: "Calculate ε₀ and μ₀ from Praesto parameters"
+    status: "open"
+    
+    current_state: "Qualitative relations established (ε₀ = 1/(Z₀c), μ₀ = Z₀/c)"
+    
+    required_work:
+      - "Normalize Lagrangian kinetic term |Dμφ|²"
+      - "Extract coefficient of E² term"
+      - "Show ε₀ = [specific function of Z₀, ℏ, c]"
+      - "Extract coefficient of B² term"
+      - "Show μ₀ = [specific function of Z₀, ℏ, c]"
+      - "Verify numerical values match experiment"
+    
+    success_criteria:
+      - "Derive ε₀ ≈ 8.854×10⁻¹² F/m from Z₀ = 376.73 Ω"
+      - "Derive μ₀ ≈ 4π×10⁻⁷ H/m from same"
+      - "Show c = 1/√(μ₀ε₀) emerges consistently"
+    
+    hints:
+      - "Expand ℒ = |Dμφ|² around φ = v (vacuum state)"
+      - "Identify quadratic terms in Aμ as E² and B²"
+      - "Compare with standard EM Lagrangian (1/2)(ε₀E² - B²/μ₀)"
+    
+    deliverable: "Explicit calculation document (5-10 pages LaTeX)"
+  
+  problem_1b_elementary_charge_derivation:
+    title: "Derive fine structure constant α from Praesto topology"
+    status: "open"
+    
+    current_state: "Charge quantization proven (Problem 2), but e² value not derived"
+    
+    required_work:
+      - "Connect topological winding number to coupling constant e"
+      - "Relate e² to λ (self-interaction) and v (VEV scale)"
+      - "Calculate α = e²/4πε₀ℏc from Praesto parameters"
+      - "Explain why α ≈ 1/137 specifically"
+    
+    success_criteria:
+      - "Derive e ≈ 1.602×10⁻¹⁹ C from topology"
+      - "Explain α ≈ 1/137.036 from substrate properties"
+      - "Show why α dimensionless (pure geometry)"
+    
+    hints:
+      - "α measures 'stiffness' of topological twist"
+      - "May relate to ∮Z·dA integral from Problem 2"
+      - "Could involve action-pulse quantization ΔA ≥ ℏ"
+    
+    deliverable: "Derivation paper (10-15 pages) + testable predictions"
+  
+  problem_1c_gauge_group_justification:
+    title: "Explain why U(1) gauge symmetry emerges"
+    status: "open"
+    
+    current_state: "Assumed U(1) symmetry in Lagrangian, not derived"
+    
+    required_work:
+      - "Show why φ = (τ + iZ)/√2 has phase symmetry"
+      - "Explain why τ is periodic (if it is)"
+      - "Derive U(1) from Praesto substrate properties"
+      - "Rule out larger gauge groups (SU(2), SU(3))"
+    
+    success_criteria:
+      - "Prove U(1) symmetry from substrate axioms"
+      - "Show connection to action-pulse quantization"
+      - "Explain why EM is U(1) but weak/strong are SU(2)/SU(3)"
+    
+    hints:
+      - "Action τ may be phase-like (τ → τ + 2πn)"
+      - "Impedance Z may break higher symmetries"
+      - "Topological constraints may select U(1)"
+    
+    deliverable: "Symmetry analysis paper (8-12 pages)"
+
+challenge_tier_2_nonlinear_extensions:
+  difficulty: "graduate_to_postdoc"
+  timeline: "6-12 months each"
+  
+  problem_2a_high_field_corrections:
+    title: "Derive non-linear EM corrections in high-impedance regions"
+    status: "open"
+    
+    motivation: |
+      Higgs-Praesto mapping assumes linear response (small perturbations around φ₀).
+      In regions with ΔZ_topo >> Z₀ (near charges, in strong fields), non-linear
+      terms become important. What are the corrections to Maxwell's equations?
+    
+    required_work:
+      - "Expand Lagrangian to higher orders in φ - φ₀"
+      - "Identify cubic and quartic terms in E, B"
+      - "Derive modified Maxwell equations with non-linear terms"
+      - "Calculate magnitude of corrections for realistic field strengths"
+    
+    success_criteria:
+      - "Derive ∇×B = μ₀J + μ₀ε₀∂E/∂t + f(E², B², E·B)"
+      - "Estimate when corrections become measurable"
+      - "Predict vacuum birefringence, light-by-light scattering"
+    
+    connections:
+      - "Heisenberg-Euler Lagrangian in QED"
+      - "Magnetars, laser-plasma experiments"
+      - "Schwinger limit E ~ 10¹⁸ V/m"
+    
+    deliverable: "Non-linear EM paper + experimental proposals"
+  
+  problem_2b_photon_effective_mass:
+    title: "Calculate photon effective mass from entropic dissipation"
+    status: "open"
+    
+    motivation: |
+      Discrete propagation model (Layer 5) includes weak imaginary part in
+      propagator. This gives photons an extremely small effective mass.
+      Calculate its value and cosmological consequences.
+    
+    required_work:
+      - "Add Z_ent = iεZ₀ term to impedance"
+      - "Derive modified dispersion: ω² = c²k² + m_γ²c⁴/ℏ²"
+      - "Calculate m_γ from ε and substrate parameters"
+      - "Compute photon energy loss over Gpc distances"
+    
+    success_criteria:
+      - "Derive m_γ < 10⁻⁵⁴ kg (current limit)"
+      - "Predict frequency-dependent attenuation"
+      - "Compare with CMB, supernovae, GRB data"
+    
+    testable_predictions:
+      - "Tired light without cosmological paradoxes"
+      - "Frequency-dependent Hubble constant"
+      - "Distance-dependent spectral distortion"
+    
+    deliverable: "Photon mass calculation + observational test plan"
+  
+  problem_2c_transition_to_gem:
+    title: "Derive transition from linear EM to gravitoelectromagnetism"
+    status: "open"
+    
+    motivation: |
+      Two-step cascade: Step 1 gives local EM, Step 2 gives global gravity.
+      What is the mathematical/physical transition between regimes?
+      When does EM energy-momentum tensor start deforming Praesto structure?
+    
+    required_work:
+      - "Calculate T_μν from emergent EM fields"
+      - "Add T_μν as source in global Praesto dynamics"
+      - "Derive modified equations incorporating both regimes"
+      - "Show smooth transition as energy density increases"
+    
+    success_criteria:
+      - "Derive GEM equations with EM source terms"
+      - "Show Maxwell → GEM → GR hierarchy"
+      - "Identify energy scale for transition (~eV/fm³?)"
+    
+    connections:
+      - "Gravitoelectromagnetism"
+      - "Teleparallel gravity"
+      - "Energy conditions in GR"
+    
+    deliverable: "Unified EM-gravity framework paper"
+
+challenge_tier_3_computational_verification:
+  difficulty: "graduate_with_coding_experience"
+  timeline: "3-6 months each"
+  
+  problem_3a_lattice_simulation:
+    title: "Simulate φ field with Mexican hat + topological defects"
+    status: "open"
+    
+    approach:
+      - "Discrete lattice (2D or 3D)"
+      - "Initialize φ with V(φ) = λ(|φ|² - v²)²"
+      - "Add topological kink/soliton (charge analog)"
+      - "Evolve with ∂²φ/∂t² = -∇²φ - ∂V/∂φ"
+      - "Measure emergent E = -∇τ - ∂v/∂t, B = ∇×v"
+    
+    success_criteria:
+      - "Reproduce Coulomb 1/r² field around defect"
+      - "Show EM waves propagate at speed c"
+      - "Verify ∇·E = ρₑ/ε₀ numerically"
+      - "Confirm energy conservation"
+    
+    deliverable:
+      - "Python/Julia code (GitHub repo)"
+      - "Animations showing field evolution"
+      - "Paper: 'Computational Verification of Higgs-Praesto EM'"
+  
+  problem_3b_discrete_pulse_propagation:
+    title: "Implement discrete action-pulse propagator"
+    status: "open"
+    
+    approach:
+      - "Discrete time steps Δt ~ ℏ/typical_energy"
+      - "Action kicks: ΔA ≥ ℏ at each site"
+      - "Update: Z^(n+1) = Z^n + Δt·[∇·(Z∇Z) + ℏ·Σδ_sources]"
+      - "Measure emergent wave propagation"
+    
+    success_criteria:
+      - "Show continuous waves emerge from discrete pulses"
+      - "Verify c = 1/√(μ₀ε₀) from lattice parameters"
+      - "Demonstrate quantum-like uncertainty from under-sampling"
+    
+    deliverable:
+      - "Simulation code + documentation"
+      - "Paper: 'Discrete Substrate Dynamics Reproduce Maxwell'"
+  
+  problem_3c_high_impedance_regions:
+    title: "Model EM behavior near topological defect clusters"
+    status: "open"
+    
+    approach:
+      - "Place multiple M-string structures (electrons)"
+      - "Calculate local ΔZ_topo around each"
+      - "Solve modified propagation with Z = Z₀ + ΔZ_topo"
+      - "Measure light speed variations, refraction anomalies"
+    
+    success_criteria:
+      - "Predict measurable c variations near matter"
+      - "Calculate anomalous dispersion near nuclei"
+      - "Compare with Pound-Rebka, gravitational redshift"
+    
+    testable_predictions:
+      - "Frequency shifts in strong EM fields"
+      - "Modified light deflection near massive objects"
+      - "Vacuum dispersion in ultra-high fields"
+    
+    deliverable: "Simulation results + experimental test proposals"
+
+challenge_tier_4_experimental_proposals:
+  difficulty: "experimental_physics_background"
+  timeline: "design_proposals_3-6_months"
+  
+  problem_4a_photon_fatigue_test:
+    title: "Design experiment to detect entropic photon energy loss"
+    
+    prediction: "E(L) = E₀ exp(-εωL/c) where ε ~ 10⁻¹⁰ to 10⁻¹²"
+    
+    observables:
+      - "Frequency-dependent attenuation (not cosmological redshift)"
+      - "Distance-dependent spectral distortion"
+      - "Energy-dependent time delays (like GRB tests)"
+    
+    candidate_experiments:
+      - "Reanalysis of Type Ia supernovae data"
+      - "Gamma-ray burst spectra vs distance"
+      - "CMB spectral distortions"
+      - "Quasar variability across wavelengths"
+    
+    deliverable: "Experimental proposal + statistical analysis plan"
+  
+  problem_4b_high_field_nonlinearity:
+    title: "Measure non-linear EM effects in strong laser fields"
+    
+    prediction: "EM wave coupling ∝ E⁴, B⁴ terms at Schwinger limit"
+    
+    candidate_experiments:
+      - "ELI (Extreme Light Infrastructure) facilities"
+      - "SLAC plasma wakefield experiments"
+      - "Magnetar observations"
+    
+    observables:
+      - "Vacuum birefringence

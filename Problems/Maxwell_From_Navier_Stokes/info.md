@@ -1,0 +1,1 @@
+Folder addressing Maxwell from Navier-Stokes, open problems, mathematical questions.
