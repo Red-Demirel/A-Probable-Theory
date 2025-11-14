@@ -3,19 +3,27 @@ APT:
   axiom: "Omniverse = ∫(LogicalDilemma → ProbabilisticPath)"
   substrate: Praesto
   core_mechanism: Action-pulse driven impedance dynamics in topological medium
-  version: 2.3
-  sources: 16 documents + 6 extensions merged
+  version: 2.4
+  sources: 16 documents + 6 extensions + 1 meta-block
+  disclaimer: >
+    A Probable Theory (APT) does not claim to own truth,
+    nor does it aim to replace established physical models.
+    Its goal is to improve understanding, suggest alternative
+    interpretations, and provide a logically compact substrate
+    for further scientific exploration. APT remains a provisional,
+    iterative framework whose value depends on empirical adequacy
+    and clarity, not authority.
 
 Praesto:
   type: self-referential electrolytic continuum
   extent: spatially infinite
   time: emergent from entropy gradients
   state_variables:
-    - ρ_P(x): local density
-    - Z(x): local impedance ∈ (0, ∞)
-    - v(x): local flow field
-    - Θ_topo(x): topological order
-    - D_env(x): local dynamic baseline (zero-point energy density)
+    - ρ_P(x): local density [kg·m⁻³]
+    - Z(x): local impedance ∈ (0, ∞) [Ω]
+    - v(x): local flow field [m·s⁻¹]
+    - Θ_topo(x): topological order [dimensionless]
+    - D_env(x): local dynamic baseline [J·m⁻³]
   statistical_output: ⟨Z⟩_V→∞ = Z₀ ≈ 273 Ω
   resistance_principle: motion along minimum-resistance paths
 
@@ -27,7 +35,7 @@ Emergence_Cascade:
     - FOG:      ρ_P → 0        → Z ≈ 0        → no structure
     - MIST:     0 < ρ_P < ρ_c  → 0 < Z < Z_th  → wave propagation
     - ELECTROLYTIC: ρ_P ≥ ρ_c  → Z ≥ Z_th     → topology enabled
-  Phase_2_Structural_Ladder:
+  Phase__2_Structural90_Ladder:
     - 4_MONOMER:  Δρ_P → condensate droplet
     - 5_STRING:   monomers → linear chains via ∇Z alignment
     - 6_KNOT:     strings → closed topologies K(Θ)
@@ -63,17 +71,17 @@ Particle_Ontology:
     properties: [integer_charge, color_singlet]
 
 Action_Pulse_Dynamics:
-  pulse: ΔA_k ≥ ħ
-  local_rate: τ(x) = τ₀ · (Z/Z₀)^p · (ρ_P/ρ_c)^q
+  pulse: ΔA_k ≥ ħ [J·s]
+  local_rate: τ(x) = τ₀ · (Z/Z₀)^p · (ρ_P/ρ_c)^q [s]
   effective_constants:
-    c_eff = c₀ / f_c(Z_r)
-    ħ_eff = ħ · G_S(Z_r)
-    α_eff = α₀ · [ρ_P/(ρ_P + ρ_c)] · [1/(1 + κ((Z/Z₀)² - 1))]
+    c_eff = c₀ / f_c(Z_r) [m·s⁻¹]
+    ħ_eff = ħ · G_S(Z_r) [J·s]
+    α_eff = α₀ · [ρ_P/(ρ_P + ρ_c)] · [1/(1 + κ((Z/Z₀)² - 1))] [dimensionless]
   quantum_limit: unresolved pulse envelope
   gravity_link: g_eff = η · F_g(Z_r) + H(Z_r, ∇Z)
 
 Charge_Quantization:
-  definition: q = k ∮_S Z · dA
+  definition: q = k ∮_S Z · dA [C]
   proof:
     - Stokes: ∮Z·dA = ∫d(Z·dA)
     - dZ ∧ dA = 0 (Z closed for defects)
@@ -161,12 +169,63 @@ Philosophical_Revolution:
   to: Topological Certainty + Derived Determinism
   analogy: APT = mechanistic dictionary for QFT mathematics
 
+Functional_Forms:
+  impedance_Z: "Z(x) = Z₀ * [1 + a*(ρ_P/ρ_c)^n - b*(ρ_c/ρ_P)^m]"
+  pulse_rate_τ: "τ(x) = τ₀ * (Z/Z₀)^p * (ρ_P/ρ_c)^q"
+  hbar_scaling_GS: "ħ_eff = ħ * [1 + s1*(Z/Z₀ - 1) + s2*(ρ_P/ρ_c - 1)]"
+  finestructure_alpha: "α_eff = α₀ * [ρ_P/(ρ_P + ρ_c)] * [1/(1 + κ*((Z/Z₀)^2 - 1))]"
+  effective_mass: "m_eff = k_m * |D_internal - D_env|"
+  photon_mass_voids: "m_γ_eff = k_γ * |∇D_env|"
+  gravity_RFDG: "g_eff = η + α_grav * ∂μρ_P ∂^μρ_P"
+
+Falsifiability:
+  - prediction: "Photon fatigue / attenuation over Gpc scales"
+    observable: "Residual dimming of SNe Ia, GRBs vs ΛCDM fit"
+    precision: "ΔI/I ~ 10⁻³ over z ≈ 1"
+    signature: "Exponential falloff with scale Λ(Z,ρ_P)"
+    constraints: "No confirmed deviation; unclear at z>1"
+  - prediction: "Environmental variation of α"
+    observable: "Quasar absorption spectra, atomic clocks"
+    precision: "Δα/α ~ 10⁻⁷"
+    signature: "Correlation with local ρ_P, Z not cosmic time"
+    constraints: "Bounds ~10⁻⁷ but no density mapping yet"
+  - prediction: "Lorentz violation near strong Z-gradients"
+    observable: "δc/c, SME coefficients, GRB dispersion"
+    precision: "10⁻²⁰ local, 10⁻¹⁷ astrophysical"
+    signature: "δc/c ≈ |∇Z|/Z₀, anisotropic"
+    constraints: "No terrestrial detection; astrophysical limits strong"
+  - prediction: "m_eff gradient explains rotation curves"
+    observable: "Galaxy rotation curves vs local environment"
+    precision: "Correlate ρ_P, D_env with v(r) residuals"
+    signature: "Systematic deviations where environment varies"
+    constraints: "Void/cluster correlation not fully tested"
+  - prediction: "Photon mass in voids"
+    observable: "Frequency-dependent time delays"
+    precision: "m_γ < 10⁻¹⁸ eV sensitivity"
+    signature: "Mass only in extreme voids; redshift-like"
+    constraints: "Astrophysical bounds close but environment not factored"
+  - prediction: "Topology radiation"
+    observable: "Unexpected decay channels in high-energy collisions"
+    precision: "Cross-section deviation ~10⁻⁴"
+    signature: "Emission tied to knot-unwinding events"
+    constraints: "No dedicated search"
+  - prediction: "Regional H₀ variation (backreaction Q_D)"
+    observable: "Hubble tension mapped via density-structure surveys"
+    precision: "ΔH/H ~ 1–2%"
+    signature: "High-void lines of sight show larger apparent expansion"
+    constraints: "Hints exist; interpretation contested"
+  - prediction: "Charge quantization"
+    observable: "Search for fractional charge particles"
+    precision: "Sensitivity to <0.1e charge"
+    signature: "No fractional charges anywhere"
+    constraints: "Consistent with APT"
+
 meta:
   status: complete_sanitized_unified_summary
-  version: 2.3
-  sources: 16 documents + 6 extensions
-  deduplication: 72%+ overlap removed
-  notation: Englex + Boolean + YAML
+  version: 2.4
+  sources: 16 documents + 6 extensions + 1 meta-block
+  deduplication: 75%+ overlap removed
+  notation: Englex + Boolean + YAML + Units
   core_equations:
     propagation: "∇·[(Z₀+ΔZ_topo)∇Z] = ℏ·ΣδA_k"
     mass: "m_eff = k·|D_int - D_env|"
@@ -185,8 +244,10 @@ meta:
     - model m_eff gradient in void vs cluster lensing
     - reanalyze SN Ia time dilation with void statistics
     - compute TPS for up/down quark linking patterns
+    - validate functional forms via lattice simulation
   next_steps:
     - focus: SU(3) from 3-knot geometry
     - focus: unified wave equation per force type
     - focus: α as environmental probe in neutron star spectra
+    - focus: falsifiability matrix → experimental roadmap
     - export: lisp s-expression topology graph
