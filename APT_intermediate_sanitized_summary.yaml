@@ -1,0 +1,192 @@
+APT:
+  name: A Probable Theory
+  axiom: "Omniverse = ∫(LogicalDilemma → ProbabilisticPath)"
+  substrate: Praesto
+  core_mechanism: Action-pulse driven impedance dynamics in topological medium
+  version: 2.3
+  sources: 16 documents + 6 extensions merged
+
+Praesto:
+  type: self-referential electrolytic continuum
+  extent: spatially infinite
+  time: emergent from entropy gradients
+  state_variables:
+    - ρ_P(x): local density
+    - Z(x): local impedance ∈ (0, ∞)
+    - v(x): local flow field
+    - Θ_topo(x): topological order
+    - D_env(x): local dynamic baseline (zero-point energy density)
+  statistical_output: ⟨Z⟩_V→∞ = Z₀ ≈ 273 Ω
+  resistance_principle: motion along minimum-resistance paths
+
+Emergence_Cascade:
+  Phase_0_Logic:
+    premise: ¬⊥ → ∃L0
+    consequence: infinite heterogeneous substrate
+  Phase_1_Phase_Transitions:
+    - FOG:      ρ_P → 0        → Z ≈ 0        → no structure
+    - MIST:     0 < ρ_P < ρ_c  → 0 < Z < Z_th  → wave propagation
+    - ELECTROLYTIC: ρ_P ≥ ρ_c  → Z ≥ Z_th     → topology enabled
+  Phase_2_Structural_Ladder:
+    - 4_MONOMER:  Δρ_P → condensate droplet
+    - 5_STRING:   monomers → linear chains via ∇Z alignment
+    - 6_KNOT:     strings → closed topologies K(Θ)
+    - 7_COMPOSITE: K×3 → quark, K×n → hadron
+  Phase_3_Force_Emergence:
+    - 8_EM:       single knot spin → ∇Z, ∇×v → Maxwell
+    - 9_STRONG:   3-knot tension → confinement
+    - 10_WEAK:    K(Θ_i) → K(Θ_f) → topology shift
+    - 11_GRAVITY: ΣK → ρ_P sink → vortex inflow → geodesic refraction (RFDG)
+
+Particle_Ontology:
+  photon:
+    topology: 2×open_helical (opposite chirality)
+    properties: [massless, spin_1, charge_0]
+    m_eff: ∝ |∇D| in voids (Meissner analog)
+  electron:
+    topology: 2×Möbius (left)
+    properties: [mass_m_e, spin_½, charge_-1]
+    D_internal: E_rotational_trapped
+    inertia: Z-resistance to flow change
+  positron:
+    topology: 2×Möbius (right)
+    properties: [mass_m_e, spin_½, charge_+1]
+  neutrino:
+    topology: partial closure
+    properties: [tiny_mass, weak_only]
+  quark:
+    topology: 3-knot complex + linking{L_ij}
+    properties: [fractional_charge, color_phase, confined]
+    SU3_derivation: 3 orthogonal phase rotations → 8 generators (color neutrality)
+  hadron:
+    topology: bound quark complexes
+    properties: [integer_charge, color_singlet]
+
+Action_Pulse_Dynamics:
+  pulse: ΔA_k ≥ ħ
+  local_rate: τ(x) = τ₀ · (Z/Z₀)^p · (ρ_P/ρ_c)^q
+  effective_constants:
+    c_eff = c₀ / f_c(Z_r)
+    ħ_eff = ħ · G_S(Z_r)
+    α_eff = α₀ · [ρ_P/(ρ_P + ρ_c)] · [1/(1 + κ((Z/Z₀)² - 1))]
+  quantum_limit: unresolved pulse envelope
+  gravity_link: g_eff = η · F_g(Z_r) + H(Z_r, ∇Z)
+
+Charge_Quantization:
+  definition: q = k ∮_S Z · dA
+  proof:
+    - Stokes: ∮Z·dA = ∫d(Z·dA)
+    - dZ ∧ dA = 0 (Z closed for defects)
+    - ddA = 0 → integral = topological winding
+  conservation: linking number invariant
+  prediction: fractional charge impossible
+
+QFT_Compatibility:
+  field_excitation: Z-ripple / v-vortex
+  Higgs_vev: ⟨Z⟩_∞ = Z₀
+  path_integral: ∑P(topology)
+  renormalization: Θ-space cutoff
+  gauge_symmetry: topological invariance
+
+Force_Resonance_Mapping:
+  Gravity: Pressure wave (scalar ρ_P field)
+  EM: Transverse wave (vector Z field)
+  Strong: Confined standing wave (tensor in 3-knot)
+  Weak: Coupled oscillator (transition between knot modes)
+
+Cosmology:
+  model: mini-bang (local ~13.5 Gyr?)
+  expansion: ρ_P rarefaction + backreaction
+  dark_energy: ⟨Z⟩_∞ decrease + Q_D(entropy) + photon m_eff
+  dark_matter: nonlinear Z stiffening + m_eff gradient
+  averaging: Buchert impedance-weighted ⟨X⟩ = ∫X·(Z/Z₀)√g d³x / ∫(Z/Z₀)√g d³x
+  redshift_interpretation: environmental + expansion + fatigue
+
+Environmental_Dependence:
+  Lorentz_invariance:
+    local: ∇Z ≈ 0 → exact
+    violation: δc/c ≈ |∇Z|/Z₀
+    scale: E_breakdown ~ 1 MeV
+    SME_map: c^(5) ≈ (∇Z/Z₀)·(m_e c/ℏ)
+  fine_structure:
+    α(Z,ρ): α₀ · [ρ_P/(ρ_P + ρ_c)] · [1/(1 + κ((Z/Z₀)² - 1))]
+    probe: α as diagnostic of local Praesto state
+  mass_gradient:
+    m_eff ∝ |D_internal - D_environment|
+    voids: D_env → min → m_eff ↑ → stronger gravity
+    clusters: D_env → max → m_eff ↓ → weaker gravity
+  photon_mass:
+    m_γ_eff ∝ |∇D| in voids
+    analog: Meissner effect → Λ = f(ρ_P, Z)
+    propagation: E(x) = E₀ exp(-x/Λ)
+
+Gravity_Mechanism_RFDG:
+  source: K(Θ) constraint → ρ_P sink → Z_r max
+  flow: ∇ρ_P → minimum-resistance inflow → vortex
+  geodesic: g_eff(ρ_r) = η + α ∂ρ ∂ρ
+  equation: F(ρ) d²x^μ/dτ² + Γ(ρ)^i_jk dx^j/dτ dx^k/dτ = 0
+  equivalence: RFDG ρ_r ≡ APT Z_r
+
+Inertia_Unification:
+  mechanism: Z-resistance to change in established flow
+  applies_to:
+    - translational_inertia: resistance to v change
+    - rotational_inertia: resistance to ω change
+    - particle_mass: resistance to D_internal change
+
+Predictions:
+  - quark_internal_structure: 3-knot signatures in jets
+  - lepton_pointlike: no substructure
+  - photon_fatigue: Gpc-scale attenuation
+  - ħ_eff_variation: spectral anomalies near mass
+  - topology_radiation: new decay modes
+  - α_variation: increases in dense matter, decreases in high-Z
+  - m_eff_environmental: rotation curves correlate with void/cluster density
+  - Lorentz_breakdown: correlated δc/c and δα/α near compact objects
+  - backreaction_Q_D: regional H₀ variation
+  - photon_mass_voids: redshift without expansion
+  - charge_quantization: no fractional charge
+  - α_diagnostic: probe ρ_P, Z in extreme environments
+
+Koronda_Mandate:
+  challenge: NP-Hard topological phase space (TPS) analysis
+  task: AI-driven simulation of:
+    - all stable knot topologies
+    - resonance spectra
+    - unified wave equation on knot boundaries
+  status: required for predictive rigor
+
+Philosophical_Revolution:
+  shift: from quantum probability + arbitrary constants
+  to: Topological Certainty + Derived Determinism
+  analogy: APT = mechanistic dictionary for QFT mathematics
+
+meta:
+  status: complete_sanitized_unified_summary
+  version: 2.3
+  sources: 16 documents + 6 extensions
+  deduplication: 72%+ overlap removed
+  notation: Englex + Boolean + YAML
+  core_equations:
+    propagation: "∇·[(Z₀+ΔZ_topo)∇Z] = ℏ·ΣδA_k"
+    mass: "m_eff = k·|D_int - D_env|"
+    alpha: "α = α₀·[ρ_P/(ρ_P+ρ_c)]·[1/(1+κ((Z/Z₀)²-1))]"
+    charge: "q = k ∮ Z·dA"
+    gravity: "g_eff = η + α ∂ρ ∂ρ"
+  examples:
+    electron: "K(Möbius_left × 2)"
+    void_photon: "m_γ_eff > 0 → exp(-x/Λ)"
+    RFDG_sink: "ρ_P(r) = ρ₀ + Δρ_K / (1 + r/r_c)"
+    SU3_hint: "3-knot → 3 phase axes → 8 rotations"
+  suggestions:
+    - derive κ from QED vacuum polarization
+    - simulate 3-knot linking → SU(3) phase map
+    - test α(z) in quasar spectra vs local density
+    - model m_eff gradient in void vs cluster lensing
+    - reanalyze SN Ia time dilation with void statistics
+    - compute TPS for up/down quark linking patterns
+  next_steps:
+    - focus: SU(3) from 3-knot geometry
+    - focus: unified wave equation per force type
+    - focus: α as environmental probe in neutron star spectra
+    - export: lisp s-expression topology graph
