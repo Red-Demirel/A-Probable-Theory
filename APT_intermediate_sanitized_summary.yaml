@@ -4,7 +4,7 @@ APT:
   substrate: Praesto
   core_mechanism: Action-pulse driven impedance dynamics in topological medium
   version: 2.5
-  sources: 16 documents + 6 extensions + 1 meta-block + 7 conceptual bridges
+  sources: 17 documents + 6 extensions + 1 meta-block + 9 conceptual bridges
   disclaimer: >
     A Probable Theory (APT) does not claim to own truth,
     nor does it aim to replace established physical models.
@@ -192,6 +192,13 @@ Conceptual_Bridges:
   local-asymmetry_cosmology:
     connects: "Early Local Fluctuations → Large-Scale Structure"
     claim: "Cosmic structure = fossil entropy-asymmetry patches in infinite Praesto."
+
+  MOND_phenomenology:
+    connects: "m_eff Environmental Gradient → MOND Acceleration Scale"
+    claim: "MOND's a₀ ≈ 1.2×10⁻¹⁰ m/s² emerges as characteristic scale where m_eff(D_env) transitions between void and cluster regimes."
+    mechanism: "m_eff = k_m * |D_internal - D_env| creates apparent force modification at galaxy scales where ∇D_env ≈ a₀"
+    advantage: "Explains MOND success in isolated galaxies (uniform D_env) AND failure in clusters (complex D_env gradients)"
+    prediction: "MOND deviations correlate with local environment complexity, not just acceleration"
     
   plasma_cosmology_foundation:
   connects: "Praesto Topological Phase → Plasma State Dynamics"
