@@ -3,8 +3,8 @@ APT:
   axiom: "Omniverse = ∫(LogicalDilemma → ProbabilisticPath)"
   substrate: Praesto
   core_mechanism: Action-pulse driven impedance dynamics in topological medium
-  version: 2.4
-  sources: 16 documents + 6 extensions + 1 meta-block
+  version: 2.5
+  sources: 16 documents + 6 extensions + 1 meta-block + 7 conceptual bridges
   disclaimer: >
     A Probable Theory (APT) does not claim to own truth,
     nor does it aim to replace established physical models.
@@ -35,7 +35,7 @@ Emergence_Cascade:
     - FOG:      ρ_P → 0        → Z ≈ 0        → no structure
     - MIST:     0 < ρ_P < ρ_c  → 0 < Z < Z_th  → wave propagation
     - ELECTROLYTIC: ρ_P ≥ ρ_c  → Z ≥ Z_th     → topology enabled
-  Phase__2_Structural90_Ladder:
+  Phase_2_Structural_Ladder:
     - 4_MONOMER:  Δρ_P → condensate droplet
     - 5_STRING:   monomers → linear chains via ∇Z alignment
     - 6_KNOT:     strings → closed topologies K(Θ)
@@ -169,6 +169,30 @@ Philosophical_Revolution:
   to: Topological Certainty + Derived Determinism
   analogy: APT = mechanistic dictionary for QFT mathematics
 
+Conceptual_Bridges:
+  emergent_quantum-space:
+    connects: "Praesto Substrate → Quantum-Space/Spacetime"
+    claim: "Praesto is emergent quantum-space; c, g_μν from AP-impedance once entropy enables structure."
+  entropy_time-asymmetry:
+    connects: "Statistical Topology → Time Direction / Thermodynamic Law"
+    claim: "Time = entropy gradient ordering; irreversibility = knot formation/decay statistics."
+  impedance_curvature:
+    connects: "Density / AP Propagation → Geometric Curvature, Praesto Dynamics → Effective Geometric Description"
+    claim: "Metric = coarse-grained Z-field; candidate physical mechanism for geometric phenomena of GR ."
+    analogy: "Molecular kinetics → Thermodynamics"
+  constraint_structure-stability:
+    connects: "Topological Knots → Structure Stability"
+    claim: "Mass-energy = constraint-reduced microstates; persistence = topological stability."
+  incompressibility_conservation:
+    connects: "Praesto Self-Maintenance → Noether Symmetry"
+    claim: "Conservation laws from invariant AP-cycle topology."
+  AP_flow_inertial-persistence:
+    connects: "Action-Pulse Periodicity → Inertial Persistence"
+    claim: "Inertia = continuity of AP-locked flow; eliminates mass-inertia duality."
+  local-asymmetry_cosmology:
+    connects: "Early Local Fluctuations → Large-Scale Structure"
+    claim: "Cosmic structure = fossil entropy-asymmetry patches in infinite Praesto."
+
 Functional_Forms:
   impedance_Z: "Z(x) = Z₀ * [1 + a*(ρ_P/ρ_c)^n - b*(ρ_c/ρ_P)^m]"
   pulse_rate_τ: "τ(x) = τ₀ * (Z/Z₀)^p * (ρ_P/ρ_c)^q"
@@ -222,10 +246,10 @@ Falsifiability:
 
 meta:
   status: complete_sanitized_unified_summary
-  version: 2.4
-  sources: 16 documents + 6 extensions + 1 meta-block
-  deduplication: 75%+ overlap removed
-  notation: Englex + Boolean + YAML + Units
+  version: 2.5
+  sources: 16 documents + 6 extensions + 1 meta-block + 7 bridges
+  deduplication: 78%+ overlap removed
+  notation: Englex + Boolean + YAML + Units + Bridges
   core_equations:
     propagation: "∇·[(Z₀+ΔZ_topo)∇Z] = ℏ·ΣδA_k"
     mass: "m_eff = k·|D_int - D_env|"
@@ -245,9 +269,11 @@ meta:
     - reanalyze SN Ia time dilation with void statistics
     - compute TPS for up/down quark linking patterns
     - validate functional forms via lattice simulation
+    - map entropy_time-asymmetry to CMB dipole
   next_steps:
     - focus: SU(3) from 3-knot geometry
     - focus: unified wave equation per force type
     - focus: α as environmental probe in neutron star spectra
     - focus: falsifiability matrix → experimental roadmap
+    - focus: bridge entropy_time-asymmetry → arrow validation
     - export: lisp s-expression topology graph
