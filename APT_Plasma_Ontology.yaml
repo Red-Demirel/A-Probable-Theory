@@ -1,0 +1,58 @@
+plasma_cosmology_foundation:
+  connects: "Praesto Topological Phase → Plasma State Dynamics"
+  role: "Provides the ontological substrate from which classical plasma physics emerges."
+  
+  key_claim: >
+    APT offers the underlying mechanism for the appearance of charged,
+    current-supporting structures (topological knots), enabling plasma
+    cosmology to serve as the correct macroscopic description wherever
+    collective electromagnetic behavior dominates.
+
+  mechanism:
+    - Phase_2_Structural_Ladder:
+        description: "Generates stable charged particles—electrons, positrons, quarks—as quantized topological defects in Praesto."
+    - Phase_3_Force_Emergence_8_EM:
+        description: "Electromagnetic force arises from impedance-mediated coupling between charged topological flows."
+    - Collective_Plasma_Dynamics:
+        description: "At sufficient density/temperature, topological charges form EM-interacting ensembles with classical plasma behavior."
+
+  implication: >
+    Plasma cosmology becomes the natural high-energy, large-scale
+    phenomenology of APT’s microscopic topological dynamics, without
+    replacing standard cosmology but enriching its ontological base.
+
+charge_topology_bridge:
+  connects: "Topological Twist → Electromagnetic Charge"
+  key_claim: "Electric charge is the conserved winding defect of Praesto flow."
+  implication: "Plasmas inherit charge conservation through topological invariants."
+
+current_impedance_bridge:
+  connects: "Flow-Coherence → Current Generation"
+  key_claim: "Electric current is a coherent AP-aligned flow stabilized by local impedance geometry."
+  implication: "Magnetic field generation in plasma follows naturally from aligned AP flows."
+
+filamentation_knot_bridge:
+  connects: "Knot Clustering → Plasma Filaments"
+  key_claim: "Filamentary plasma structures correspond to aggregated knot-flows maintaining directional coherence."
+  implication: "Explains cosmic-scale filamentation without invoking additional exotic physics."
+
+reconnection_bridge:
+  connects: "Topology Rewriting → Magnetic Reconnection"
+  key_claim: "Reconnection is the local reconfiguration of knot constraints under impedance collapse."
+  implication: "Energy release follows from topological simplification, not just MHD approximations."
+
+plasma_frequency_bridge:
+  connects: "AP Cycle Synchronization → Plasma Oscillation"
+  key_claim: "The plasma frequency is the emergent collective oscillation of synchronized AP charge cycles."
+  implication: "Classical plasma resonance is the macroscopic signature of microscopic AP timing constraints."
+
+cosmic_magnetism_bridge:
+  connects: "Large-Scale Impedance Maps → Cosmic Magnetic Fields"
+  key_claim: "Impedance gradients guide long-range current channels, seeding coherent cosmic-scale magnetic structures."
+  implication: "No dynamo needed for primordial magnetogenesis."
+
+plasma_gr_bridge:
+  connects: "Impedance-Derived Metric → Plasma Cosmology"
+  key_claim: "Plasma phenomena operate within the impedance-shaped metric; they do not override gravitational curvature."
+  implication: "Ensures APT plasma cosmology complements, not replaces, GR cosmology."
+
