@@ -65,3 +65,13 @@ This document provides explanatory context for the **Conceptual Bridges** sectio
 
 * **Connects:** **Praesto Topological Phase** $\rightarrow$ **Plasma State Dynamics**
 * **Core Idea:** APT provides the **ontological foundation** for plasma physics by explaining *how* charged topological structures (electrons, quarks) **emerge** from the neutral substrate. Once formed, plasma physics accurately describes their collective electromagnetic behavior, making it the **natural macroscopic description** of APT's microscopic dynamics in high-energy environments.
+
+---
+## 10. Wave-Particle Duality: Pilot-Wave Determinism
+
+* **Connects:** **Knot Topology + Praesto Wave** $\rightarrow$ **Bohmian Pilot-Wave**
+* **Core Idea:** The framework replaces the probabilistic nature of quantum mechanics with a **deterministic mechanism**. The particle (the topological knot) is not merely a point but a stable distortion in the $\mathbf{Praesto}$ substrate. This knot intrinsically generates a persistent, localized **impedance field**—this field *is* the pilot-wave.
+* **Mechanism:** The knot's motion is not random; it is guided by the fundamental $\mathbf{APT}$ principle of following the **minimum-resistance gradient ($\nabla Z$)** of the combined impedance field.
+* **Implication:** This bridge **restores determinism** to quantum mechanics and provides the physical, mechanistic basis (Praesto impedance) that was missing from the original Bohmian formulation.
+
+
