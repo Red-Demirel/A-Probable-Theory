@@ -1,0 +1,30 @@
+APT_Information_Diffusion_Mechanism:
+
+  spatial_diffusion:
+    mechanism: "Impedance gradients (Z) dampen coherent information propagation."
+    equation: "∇·[ Z ∇I ] = -κ I"
+    meaning:
+      - "Information propagates through a resistive substrate."
+      - "Coherence decays exponentially with increasing impedance."
+      - "Attenuation is a physical property of the Praesto, not a statistical artifact."
+
+  temporal_diffusion:
+    mechanism: "Action-pulse (AP) events continually scramble topological information."
+    equation: "∂I/∂t = -Σ_k ( δA_k · ∇_topo I )"
+    meaning:
+      - "Each AP cycle perturbs the local configuration."
+      - "Temporal information diffusion drives entropy increase."
+      - "Irreversibility (arrow of time) arises from accumulated perturbations."
+
+  structural_diffusion:
+    mechanism: "Different structural scales exhibit qualitatively different diffusion regimes."
+    small_scale: 
+      regime: "Quantum-dominated"
+      behavior: 
+        - "Large ∇_topoI fluctuations → high uncertainty"
+        - "Information localization becomes impossible"
+    large_scale:
+      regime: "Statistical-dominated"
+      behavior:
+        - "Local AP noise averages out"
+        - "Smooth, deterministic fields (gravity, hydrodynamics) emerge"
