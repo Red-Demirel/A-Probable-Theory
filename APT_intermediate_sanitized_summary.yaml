@@ -3,7 +3,7 @@ APT:
   axiom: "Omniverse = ∫(LogicalDilemma → ProbabilisticPath)"
   substrate: Praesto
   core_mechanism: Action-pulse driven impedance dynamics in topological medium
-  version: 2.6
+  version: 2.7
   sources: 17 documents + 6 extensions + 1 meta-block + 13 conceptual bridges
   disclaimer: >
     A Probable Theory (APT) does not claim to own truth,
@@ -47,6 +47,7 @@ Emergence_Cascade:
     - 11_GRAVITY: ΣK → ρ_P sink → vortex inflow → geodesic refraction (RFDG)
 
 Particle_Ontology:
+
   photon:
     topology: 2×open_helical (opposite chirality)
     properties: [massless, spin_1, charge_0]
@@ -69,6 +70,41 @@ Particle_Ontology:
   hadron:
     topology: bound quark complexes
     properties: [integer_charge, color_singlet]
+
+Dynamics_Corroboration:
+  name: "String Dynamics Emergence: Causal Chain to Dipole"
+  claim: "Impedance Cohesion → String → Vibration/Rotation/Phase/Dipole → All particle properties"
+  core_causal_chain:
+    - "Impedance_Cohesion → String_Formation"
+    - "Topological_Constraint → Quantized_Vibrations → Mass (E=mc² as AP-inertia)"
+    - "Rotational_Modes → Spin"
+    - "Phase_Orientation → Charge Sign"
+    - "Dipole_Emergence → EM Signature"
+  mechanism:
+    constraint:
+      - "Z-field defines effective string boundaries"
+      - "Quantizes modes: f_n = (n/2L) × √(T/μ) × g(Z,ρ_P)"
+    symmetry_breaking:
+      - "Vibration breaks rotational symmetry"
+      - "Phase orientation → chirality (Möbius left/right)"
+    dipole:
+      - "Phase gradient along string → E-dipole"
+      - "Rotation → B-dipole"
+      formula: "p_dipole = k_d × ∫ (∇phase × Z) dl"
+  validation:
+    vibration: "Fixed-boundary strings, carbon nanotube phonons"
+    rotation: "Gyroscopic ring coupling"
+    dipole: "Ferroelectrics, chiral molecules, plasma filaments"
+  predictions:
+    - "High-energy jets show vibration-rotation spectra"
+    - "Charge = discrete phase modes"
+    - "Spin = quantized string rotation"
+    - "Mass hierarchy = vibration frequency map"
+  assessment:
+    - "Converts static topology → full dynamics"
+    - "Mathematically tractable"
+    - "Predictive & falsifiable"
+    - "Elevates APT from structure to mechanism"
 
 Action_Pulse_Dynamics:
   pulse: ΔA_k ≥ ħ [J·s]
