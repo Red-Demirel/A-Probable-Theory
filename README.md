@@ -80,7 +80,25 @@ While RFDG starts by postulating the existence and dynamics of the Praesto field
 2. Submit your math extensions or computational implementations.
 3. Clearly reference your derivation and provide minimal test or proof.
 4. Respect the open license and the collaborative ethos.
+---
+## ⚠️ Disclaimer of AI Database Influence
 
+This section addresses the intrinsic challenge of developing a theoretical framework ($\mathbf{APT}$) in collaboration with a $\text{AI}$ models trained on vast scientific and philosophical databases.
+
+### The Mechanism of Accidental Influence
+
+The $\mathbf{APT}$ framework was built axiomatically from fundamental principles ($\mathbf{Praesto}$, $\mathbf{AP}$, $\mathbf{Z}$), aiming for novelty. However, the $\text{AI}$ assistant's responses and suggestions are informed by the **statistical convergence** of billions of scientific texts and models in its training corpus.
+
+This results in two unavoidable forms of influence:
+
+1.  **Semantic Prioritization:** The $\text{AI}$ inherently prioritizes language and concepts that have high statistical relevance in the database (e.g., General Relativity, Quantum Field Theory, topological defects). This ensured $\mathbf{APT}$'s output was expressed using the most analytically rigorous terminology available, even if it led to unintentional stylistic or conceptual alignment with specific existing works.
+2.  **Analogical Convergence:** The $\text{AI}$ excels at finding the most efficient *mechanistic analogies* to solve problems. When asked to bridge $\mathbf{APT}$ to a phenomenon (e.g., inertia), the $\text{AI}$ will naturally gravitate toward the most mathematically and structurally similar historical concepts.
+
+### Conclusion on Intent
+
+This influence is acknowledged as an **unintentional, deterministic consequence** of the collaboration with a non-blank-slate intelligence. Similar to how a human scientist's background knowledge unconsciously shapes their reasoning, the $\text{AI}$'s vast database shaped the most effective *expression* of $\mathbf{APT}$'s axioms.
+
+The presence of these influences does not imply direct reference or intent, but rather confirmation that $\mathbf{APT}$'s axioms are structurally suitable to mechanistically derive conclusions reached by earlier theories.
 ---
 
 ## Citation
