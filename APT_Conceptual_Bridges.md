@@ -91,6 +91,7 @@ This document provides explanatory context for the **Conceptual Bridges** sectio
 * **Core Idea:** Time dilation and length contraction emerge from **Z-resistance to changing established flow patterns**.
 * **Testable Prediction:** Subtle deviations from SR predictions in **high-Z gradient environments**.
 * **Evidence Threshold:** Precision measurements of relativistic effects near compact objects with known $\mathbf{Z}$-gradients.
+
 ---
 
 ## 🌉 APT Conceptual Bridges: Confidence & Falsifiability Assessment
@@ -101,10 +102,8 @@ This assessment prioritizes the **12 Conceptual Bridges** based on their **Assum
 
 ### **I. High Falsifiability / High Priority Bridges**
 
-These bridges offer the clearest and fastest route to empirical validation, providing unique and testable predictions that challenge existing observational anomalies.
-
 | ID | Conceptual Bridge | Confidence | Falsifiability | Testable Prediction | Evidence Threshold |
-| :--- | :--- | :--- | :--- | :--- | :--- |
+| :---: | :--- | :--- | :--- | :--- | :--- |
 | **3** | **MOND and Dark Matter** | High | Clear | Rotation curve anomalies correlate with **local environmental density ($D_{env}$)**, not just acceleration. | Requires demonstrating $m_{eff} \propto |\mathbf{D}_{internal} - \mathbf{D}_{environment}|$ correlation with galactic dynamics. |
 | **11** | **Quantum & Entanglement** | Medium-High | Testable | Quantum coherence times and decoherence rates should **vary with local Praesto conditions** (Impedance $Z$). | Detection of environment-dependent decoherence rates in quantum coherence experiments. |
 | **9** | **Plasma Cosmology** | High | Direct | **Specific topological signatures** (e.g., knot-unwinding radiation) in high-energy collisions or quark-gluon plasma experiments. | Detection of knot-unwinding radiation in particle decays or topological invariants. |
@@ -113,29 +112,24 @@ These bridges offer the clearest and fastest route to empirical validation, prov
 
 ### **II. Medium Falsifiability / Strategic Priority Bridges**
 
-These bridges provide the mechanistic link for major existing theories and are testable through high-precision measurements in extreme environments or through controlled laboratory experiments.
-
 | ID | Conceptual Bridge | Confidence | Falsifiability | Testable Prediction | Evidence Threshold |
-| :--- | :--- | :--- | :--- | :--- | :--- |
+| :---: | :--- | :--- | :--- | :--- | :--- |
 | **2** | **Gravity: Impedance → Curvature** | Medium | Advanced | Subtle deviations in **gravitational wave propagation speed** in low-density (low $Z$) regions, inconsistent with pure GR. | Detection of environment-dependent gravitational wave speed or frequency shifts. |
 | **12** | **Relativity & Dilation** | Medium | Precision | Subtle deviations from SR predictions in high-$\mathbf{Z}$ gradient environments (near compact objects). | Precision measurements of relativistic effects near known Z-gradients. |
-| **10** | **Pilot-Wave Determinism** | Medium | Advanced | Observable **consequences in high-precision double-slit experiments** with varying environmental conditions. **(Determinism)** | Demonstration of environment-dependent quantum interference patterns and non-instantaneous entanglement formation. |
+| **10** | **Pilot-Wave Determinism** | Medium | Advanced | Observable **consequences in high-precision double-slit experiments** with varying environmental conditions. | Demonstration of environment-dependent quantum interference patterns and non-instantaneous entanglement formation. |
 | **6** | **Inertia: AP Flow → Persistence** | Medium | Tabletop | Possible to engineer systems with **modified inertial properties** through $Z$-field manipulation. | Experimental demonstration of environment-dependent inertial mass. |
 
 ---
 
 ### **III. Lower Falsifiability / Axiomatic & Foundational Bridges**
 
-These are the most fundamental, often axiomatic principles. Validation relies on the overall success of the higher-priority bridges and the AI's success in constant derivation.
-
 | ID | Conceptual Bridge | Confidence | Falsifiability | Testable Prediction | Evidence Threshold |
-| :--- | :--- | :--- | :--- | :--- | :--- |
+| :---: | :--- | :--- | :--- | :--- | :--- |
 | **1** | **Emergent Quantum-Space** | Medium | Indirect | $\mathbf{\delta c/c} \propto |\nabla Z|/Z_0$ should be detectable near massive objects (high $\mathbf{Z}$). | Precision measurements of SME coefficients around compact objects. |
 | **5** | **Conservation Laws** | Medium | Indirect | **Charge quantization** and linking number invariance must hold perfectly. Falsified by any stable, non-topological fractional charge. | Any detection of stable fractional charge would falsify. |
 | **4** | **Time and Thermodynamics** | Low | Extremely Challenging | In principle, regions of reversed topological complexity gradient might exhibit temporal anomalies. **(Axiomatic)** | Unfalsifiable with current technology. |
-| **7 & 8** | **Structure & Topology** | Medium | Simulation | Successful $\mathbf{AI}$ simulation of the $\mathbf{SU}(3)$ symmetry from the 3-knot topology (quarks). | AI successfully derives the Standard Model symmetries from topological flow. |
-
----
+| **7** | **Matter and Structure** | Medium | Simulation | Successful $\mathbf{AI}$ simulation of the $\mathbf{SU}(3)$ symmetry from the 3-knot topology (quarks). | AI successfully derives the Standard Model symmetries from topological flow. |
+| **8** | **Cosmology** | Medium | Indirect | Statistical variations in the universal Praesto background should correlate with large-scale structure distribution. | Advanced mapping of large-scale structure entropy versus known cosmological density gradients. |
 
 ---
 
@@ -255,7 +249,7 @@ The Conceptual Bridges explicitly connect APT mechanisms to established framewor
 - **Valentini, Dürr, Tumulka**: Modern Bohmian mechanics development
 - **Couder & Fort (2006)**: Bouncing droplet pilot-wave analogs
 
-**APT Contribution:** Provides physical substrate (Z-field) that Bohmian ψ-field lacks. Pilot-wave becomes measurable impedance envelope; guidance equation derives from minimum-resistance principle.
+**APT Contribution:** Provides physical substrate (Z-field) that Bohmian $\psi$-field lacks. Pilot-wave becomes measurable impedance envelope; guidance equation derives from minimum-resistance principle.
 
 ---
 
@@ -290,10 +284,10 @@ The Conceptual Bridges explicitly connect APT mechanisms to established framewor
 
 While acknowledging this extensive prior work, APT's unique contribution is **mechanistic unification**:
 
-1. **Single Substrate:** All bridges derive from Praesto ($Z$, $\rho_P$, $\Theta_{topo}$) rather than separate fields/principles
-2. **Explicit Mechanism:** Provides "how" where prior work offers "what" (phenomenology) or "that" (existence proofs)
-3. **Falsifiable Predictions:** Each bridge generates testable deviations from established frameworks
-4. **Computational Path:** Koronda Initiative (AI-driven topology simulation) provides route to quantitative validation
+1.  **Single Substrate:** All bridges derive from Praesto ($Z$, $\rho_P$, $\Theta_{topo}$) rather than separate fields/principles
+2.  **Explicit Mechanism:** Provides "how" where prior work offers "what" (phenomenology) or "that" (existence proofs)
+3.  **Falsifiable Predictions:** Each bridge generates testable deviations from established frameworks
+4.  **Computational Path:** Koronda Initiative (AI-driven topology simulation) provides route to quantitative validation
 
 **APT does not claim to replace these frameworks but to provide the substrate from which they necessarily emerge.**
 
@@ -360,5 +354,3 @@ Bridges are **not equally dependent** on APT's core axioms. Falsification propag
 - Bridge 12 (Relativity): Lorentz violation predictions
 
 Researchers targeting APT should focus on **Core-Dependent** bridges for maximum efficiency.
-
----
