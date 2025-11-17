@@ -113,8 +113,35 @@ Unified_Emergence_Architecture:
   # =========================================================================
   Force_Emergence:
     description: "Forces emerge at different structural levels"
+# ... (Phase 2 remains) ...
 
-    - ID: 8_ELECTROMAGNETIC
+Foundational_Precursor:
+  mass_inertia_effect:
+    definition: "Praesto Impedance (Z) as the inherent resistance to dynamic change."
+    role: "Ontologically prior to forces; it is a substrate property, not an specific interaction."
+    precedence: "Required to constrain Action-pulses ($\Delta A_k$) into stable topological knots (particles)."
+    duality_resolution:
+      - "Mass: Z required to sustain the knot topology."
+      - "Inertia: Z required to change the knot's flow velocity."
+
+    Phase_3_Force_Emergence:
+      - 8_WEAK:     K(Θ_i) → K(Θ_f) → topology shift (fundamental instability)
+      - 9_EM:       single knot spin/helical flow → ∇Z, ∇×v → Maxwell (string dynamics)
+      - 10_STRONG:  3-knot tension → confinement (composite binding)
+      - 11_GRAVITY: ΣK → ⟨Z⟩ gradient → GEM/GR (collective action)
+      
+    - ID: 9_ELECTROMAGNETIC
+      emergence: "Single-string dynamics"
+      mechanisms:
+      electric:  "∇Z — impedance gradient from phase direction"
+      magnetic:  "∇×v — vorticity from helical/rotational string flow"
+    coherence_condition: "electric and magnetic effects co-emerge; inseparable in APT"
+    unified_field_relation: "F_EM = (∇Z, ∇×v) generated from same string pulse"
+    physical_analogy:
+    - "phase gradient = electric potential"
+    - "rotational/chiral mode = magnetic induction"
+    - "helical string → natural Maxwell pair"
+
       source_structure: "Topological Knots (ID6)"
       origin: "Spinning charged knots"
       mechanism: "Rotating knots generate impedance waves in Praesto"
@@ -129,7 +156,7 @@ Unified_Emergence_Architecture:
       causal_chain: "7_COMPOSITE_STRUCTURES string tension → quark confinement → strong force"
       key_insight: "Strong force emerges **after** EM, not before"
 
-    - ID: 10_WEAK_FORCE
+    - ID: 8_WEAK_FORCE
       source_structure: "Knot topology transitions"
       origin: "Knot reconfiguration energy"
       mechanism: "Topological transformations between different knot types"
@@ -190,7 +217,7 @@ Revised_Causal_Chain:
   phase_transitions: "1_FOG → 2_MIST → 3_ELECTROLYTIC"
   fundamental_formation: "4_MONOMER → 5_STRING_FORMATION → 6_TOPOLOGICAL_KNOTS"
   composite_formation: "7_COMPOSITE_STRUCTURES (quarks/hadrons)"
-  force_emergence: "8_ELECTROMAGNETIC → 9_STRONG_FORCE → 10_WEAK_FORCE → 11_GRAVITY_INERTIA"
+  force_emergence: "8_WEAK_FORCE → 9_ELECTROMAGNETIC → 9_STRONG_FORCE → 11_GRAVITY_INERTIA"
   standard_model: "12_LEPTON_FAMILY → 13_QUARK_FAMILY → 14_HADRON_FAMILY → 15_GAUGE_BOSONS"
 
 Conceptual_Integrity:
