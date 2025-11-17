@@ -28,23 +28,50 @@ Praesto:
   resistance_principle: motion along minimum-resistance paths
 
 Emergence_Cascade:
-  Phase_0_Logic:
-    premise: ¬⊥ → ∃L0
-    consequence: infinite heterogeneous substrate
-  Phase_1_Phase_Transitions:
-    - FOG:      ρ_P → 0        → Z ≈ 0        → no structure
-    - MIST:     0 < ρ_P < ρ_c  → 0 < Z < Z_th  → wave propagation
-    - ELECTROLYTIC: ρ_P ≥ ρ_c  → Z ≥ Z_th     → topology enabled
+# Replace entire old Emergence_Cascade / Force_Emergence with this
+Emergence_Architecture_v3:
+  core_principle: "All reality = deterministic causal chain from Praesto density variations"
+
+  Foundational_Precursor:
+    Z_resistance:
+      role: "Substrate property ontologically prior to all forces"
+      mass: "Z required to sustain knot topology"
+      inertia: "Z required to alter knot flow → translational & rotational inertia"
+      resolves: "Mass–inertia duality eliminated"
+
+  Phase_0: [0_LOGIC, 0_STATISTICS] → infinite heterogeneous Praesto
+  Phase_1_Phase_Transitions: 1_FOG → 2_MIST → 3_ELECTROLYTIC (topology enabled)
   Phase_2_Structural_Ladder:
-    - 4_MONOMER:  Δρ_P → condensate droplet
-    - 5_STRING:   monomers → linear chains via ∇Z alignment
-    - 6_KNOT:     strings → closed topologies K(Θ)
-    - 7_COMPOSITE: K×3 → quark, K×n → hadron
-  Phase_3_Force_Emergence:
-    - 8_EM:       single knot spin → ∇Z, ∇×v → Maxwell
-    - 9_STRONG:   3-knot tension → confinement
-    - 10_WEAK:    K(Θ_i) → K(Θ_f) → topology shift
-    - 11_GRAVITY: ΣK → ρ_P sink → vortex inflow → geodesic refraction (RFDG)
+    - 4_MONOMER → 5_STRING → 6_KNOT (fundamental particles) → 7_COMPOSITE (quarks/hadrons)
+
+  Phase_3_Force_Emergence:  # New correct causal order
+    - 8_WEAK_FORCE:
+        level: single-knot topology transition K(Θ_i)→K(Θ_f)
+        range: very short (high reconfiguration energy)
+    - 9_ELECTROMAGNETIC:
+        level: single-string/knot spin & helical flow
+        mechanism: "∇Z (phase gradient) + ∇×v (vorticity) co-emerge → full Maxwell"
+        range: long
+    - 10_STRONG_FORCE:
+        level: composite (3-knot) string tension
+        mechanism: topological confinement of sub-knots
+        range: ~fm
+    - 11_GRAVITY_INERTIA:
+        level: collective ⟨Z⟩ gradient from many knots
+        mechanism: impedance landscape → geodesic refraction
+        range: universal
+
+  Phase_4_Particle_Physics:
+    Leptons:  single topological knots (ID6)
+    Quarks:   three-knot complexes (ID7)
+    Hadrons:  bound quark complexes
+    Gauge_bosons: specific string/knot vibration modes
+
+  Revised_Causal_Chain:
+    transitions:  "1→2→3"
+    structure:    "4→5→6→7"
+    forces:       "8_WEAK → 9_EM → 10_STRONG → 11_GRAVITY"
+    particles:    "12_LEPTONS → 13_QUARKS → 14_HADRONS → 15_BOSONS"
 
 Particle_Ontology:
 
@@ -215,15 +242,6 @@ APT_Information_Diffusion_Mechanism:
     large_scale:
       regime: "Statistical-dominated"
       behavior: "AP noise averages → smooth fields"
-
-# === Add under Conceptual_Bridges (v3.0) ===
-Koronda_Mandate:
-  challenge: NP-Hard topological phase space (TPS) analysis
-  task: AI-driven simulation of:
-    - all stable knot topologies
-    - resonance spectra
-    - unified wave equation on knot boundaries
-  status: required for predictive rigor
 
 Philosophical_Revolution:
   shift: from quantum probability + arbitrary constants
