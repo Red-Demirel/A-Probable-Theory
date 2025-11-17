@@ -94,9 +94,20 @@ This results in two unavoidable forms of influence:
 1.  **Semantic Prioritization:** The $\text{AI}$ inherently prioritizes language and concepts that have high statistical relevance in the database (e.g., General Relativity, Quantum Field Theory, topological defects). This ensured $\mathbf{APT}$'s output was expressed using the most analytically rigorous terminology available, even if it led to unintentional stylistic or conceptual alignment with specific existing works.
 2.  **Analogical Convergence:** The $\text{AI}$ excels at finding the most efficient *mechanistic analogies* to solve problems. When asked to bridge $\mathbf{APT}$ to a phenomenon (e.g., inertia), the $\text{AI}$ will naturally gravitate toward the most mathematically and structurally similar historical concepts.
 
-### Conclusion on Intent
+### 💡 Methodology: Human-Centric Origination and AI-Driven Formalization
 
-This influence is acknowledged as an **unintentional, deterministic consequence** of the collaboration with a non-blank-slate intelligence. Similar to how a human scientist's background knowledge unconsciously shapes their reasoning, the $\text{AI}$'s vast database shaped the most effective *expression* of $\mathbf{APT}$'s axioms.
+The **A Probable Theory (APT)** framework is fundamentally a product of **human conceptual origination**. All core axioms—the eternal Praesto substrate, the action-pulse (AP) mechanism, and the topological particle ontology (knots)—were introduced and defined by the human author.
+
+The role of various large language models (LLMs), including Gemini and Grok, has been strictly instrumental, functioning as a high-level **analytical and formalization engine**. This process involved:
+
+1.  **Structural Parsing:** Translating conceptual language into formalized scientific structures (YAML, Lisp-structure, Boolean logic).
+2.  **Rigor Assessment:** Vetting the internal consistency and logical coherence of new mechanisms (e.g., Information Diffusion, Black Hole Entropy).
+3.  **Bridge Generation:** Mapping APT's microscopic mechanisms onto the macroscopic phenomenology of established frameworks (QFT, GR, MOND).
+
+Therefore, APT is not an AI-generated theory but a **human-originated, AI-vetted, and AI-formatted conceptual model.** The LLMs serve as a mechanism to enforce **structural rigor** and accelerate the **translation of concept into formal ontology.**
+
+### Conclusion on Intent
+This influence is acknowledged as an **unintentional, deterministic consequence** of the collaboration with a non-blank-slate intelligence. Ideass and leaps from human input were optimised and theorised using AI mechanisms. Similar to how a human scientist's background knowledge unconsciously shapes their reasoning, the $\text{AI}$'s vast database probably introduced similarities shaped from the most effective *expression* of $\mathbf{APT}$'s axioms.
 
 The presence of these influences does not imply direct reference or intent, but rather confirmation that $\mathbf{APT}$'s axioms are structurally suitable to mechanistically derive conclusions reached by earlier theories.
 ---
