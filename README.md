@@ -109,7 +109,10 @@ Therefore, APT is not an AI-generated theory but a **human-originated, AI-vetted
 ### Conclusion on Intent
 This influence is acknowledged as an **unintentional, deterministic consequence** of the collaboration with a non-blank-slate intelligence. Ideass and leaps from human input were optimised and theorised using AI mechanisms. Similar to how a human scientist's background knowledge unconsciously shapes their reasoning, the $\text{AI}$'s vast database probably introduced similarities shaped from the most effective *expression* of $\mathbf{APT}$'s axioms.
 
+---
+
 The presence of these influences does not imply direct reference or intent, but rather confirmation that $\mathbf{APT}$'s axioms are structurally suitable to mechanistically derive conclusions reached by earlier theories.
+
 ---
 
 ## Citation
