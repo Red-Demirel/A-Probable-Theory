@@ -1,0 +1,32 @@
+Z-Field_Ontology_and_Critical_Coherence:
+  summary: "Defines Praesto Impedance (Z) as the master state parameter governing topological structure, phase transitions, and the emergence of fundamental constants."
+
+  Z_as_Coherence_Parameter:
+    definition: "Praesto Impedance Z(x) — Measure of the substrate's capacity to maintain topological structure against dissipation."
+    role: "The master parameter determining which structures (knots) can persist in a given region."
+    units: "Ohms (Ω) as the fundamental unit of coherence and resistance."
+    analogy: "Critical temperature/field for superconductivity (Z-threshold for topological persistence)."
+
+  Structural_Coherence_Threshold:
+    Z₀_value: "Universal coherence threshold: Z₀ ≈ 273 Ω"
+    mechanism: "Action-pulses require sufficient local impedance (Z) to constrain the flow dynamics necessary for knot integrity."
+    phase_boundaries:
+      - fog_phase: "Z → 0 (perfect fluidity); no persistent structure, no topology."
+      - mist_phase: "0 < Z < Z₀ (subcritical); wave propagation and transient dynamics only."
+      - electrolytic_phase: "Z ≥ Z₀ (supercritical); topology enabled, stable knots (particles) persist."
+    
+    Z_variation_effects:
+      subcritical: "Z < Z₀: All existing structures dissolve back into the continuum (APT prediction for deep voids)."
+      supercritical: "Z > Z₀: Structures persist, forces and complex dynamics emerge."
+      optimal: "Z ≈ Z₀: Region of maximum structural diversity and complexity."
+
+  Emergence_of_Constants:
+    fine_structure_constant:
+      status: "Derived parameter, not fundamental"
+      formula: "α = f(Z, ρ_P)"
+      role: "Diagnostic output of the local Praesto state, revealing Z and ρ_P conditions, not a causal agent."
+      
+    c_and_ħ:
+      status: "Emergent from coherence dynamics"
+      c: "Maximum propagation speed of Z-ripples/v-vortices in the Z-field."
+      ħ: "Minimum quantum of action required to effect a Z-state change ($\Delta A_k \ge \hbar$)."
