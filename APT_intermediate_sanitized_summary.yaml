@@ -3,8 +3,8 @@ APT:
   axiom: "Omniverse = ∫(LogicalDilemma → ProbabilisticPath)"
   substrate: Praesto
   core_mechanism: Action-pulse driven impedance dynamics in topological medium
-  version: 2.8
-  sources: 18 documents + 6 extensions + 1 meta-block + 16 conceptual bridges
+  version: 2.9
+  sources: 19 documents + 6 extensions + 1 meta-block + 16 conceptual bridges
   disclaimer: >
     A Probable Theory (APT) does not claim to own truth,
     nor does it aim to replace established physical models.
@@ -15,20 +15,59 @@ APT:
     and clarity, not authority.
 
 Praesto:
-  type: self-referential electrolytic continuum
-  extent: spatially infinite
-  time: emergent from entropy gradients
+  type: "self-referential topological-phase continuum"
   state_variables:
-    - ρ_P(x): local density [kg·m⁻³]
-    - Z(x): local impedance ∈ (0, ∞) [Ω]
-    - v(x): local flow field [m·s⁻¹]
-    - Θ_topo(x): topological order [dimensionless]
-    - D_env(x): local dynamic baseline [J·m⁻³]
-  statistical_output: ⟨Z⟩_V→∞ = Z₀ ≈ 273 Ω
-  resistance_principle: motion along minimum-resistance paths
+    - ρ_P(x):    "density field – substrate quantity (kg·m⁻³)"
+    - D_depth(x): "depth field – substrate richness/complexity (J·m⁻³ or bits·m⁻³ equivalent)"
+    - Z(x):      "impedance field – resistance to change (Ω)"
+    - v(x):      "flow field (m·s⁻¹)"
+    - Θ_topo(x): "topological order field (dimensionless)"
+
+  D_depth:
+    definition: "Scalar measure of local substrate structural capacity and information richness"
+    physical_role: |
+      - Determines how many stable topological phase configurations (strings,loops, knots) can be supported
+      - Sets the local “phase space volume” for action-pulse resolution
+      - Replaces previous D_env(x) + parts of ρ_P complexity
+    analogies:
+      - "soil richness vs mere soil mass"
+      - "nutrient concentration vs water volume"
+      - "cognitive depth vs brain volume"
+    relation_to_Z: "High D_depth enables higher local Z without collapse → more complex particles"
+    
+Praesto_Phases:
+  1_FOG:         "ρ_P→0, Z≈0       → perfect fluidity, no structure"
+  2_MIST:        "0<ρ_P<ρ_c, 0<Z<Z₀ → waves only, subcritical"
+  3_ELECTROLYTIC:"ρ_P≥ρ_c, Z≥Z₀    → topology & particles enabled"
+  4_BRITTLE:     "ρ_P<ρ_brittle    → high resistance despite low Z → explosive dissolution"
+
+Generalized_Impedance:
+  core_definition: "Z(x) = δ(effort) / δ(flow) across ALL physical domains"
+  unified_manifestations:
+    electromagnetic: "∇Z → E-field, ∇×v → B-field"
+    inertial:        "Z → resistance to velocity change (translational & rotational inertia)"
+    gravitational:   "Collective Z-gradient → curvature"
+    massive:         "Z required to sustain topological closure (rest mass)"
+    informational:   "Z controls speed & coherence of causal propagation (c_eff, quantum coherence)"
+    thermodynamic:   "Z drives minimum-resistance paths → 2nd-law-like behavior"
+
+  historical_continuity:
+    Faraday:   "electro-tonic state"
+    Maxwell:   "stresses in the ether"
+    Heaviside: "impedance of free space"
+    APT v3.3:  "Z(x) as the single universal responsiveness of Praesto"
+
+  consequence: "All classical and quantum fields are simply different measurement projections of the same underlying impedance field Z(x) and its gradients."
+
+Enhanced_Impedance_Function:
+  full_form: "Z(x) = Z₀ · exp(β·ρ_matter/ρ_c) · [1 + a·(ρ_P/ρ_c)^n - b·(ρ_c/ρ_P)^m]"
+  interpretation:
+    exponential: "matter-induced stiffening (gravity & strong gravity)"
+    polynomial:  "background Praesto density response"
+    combined:     "complete non-linear dynamics"
 
 Emergence_Cascade:
-# Replace entire old Emergence_Cascade / Force_Emergence with this
+
 Emergence_Architecture_v3:
   core_principle: "All reality = deterministic causal chain from Praesto density variations"
 
@@ -44,22 +83,24 @@ Emergence_Architecture_v3:
   Phase_2_Structural_Ladder:
     - 4_MONOMER → 5_STRING → 6_KNOT (fundamental particles) → 7_COMPOSITE (quarks/hadrons)
 
-  Phase_3_Force_Emergence:  # New correct causal order
-    - 8_WEAK_FORCE:
-        level: single-knot topology transition K(Θ_i)→K(Θ_f)
-        range: very short (high reconfiguration energy)
-    - 9_ELECTROMAGNETIC:
-        level: single-string/knot spin & helical flow
-        mechanism: "∇Z (phase gradient) + ∇×v (vorticity) co-emerge → full Maxwell"
-        range: long
-    - 10_STRONG_FORCE:
-        level: composite (3-knot) string tension
-        mechanism: topological confinement of sub-knots
-        range: ~fm
-    - 11_GRAVITY_INERTIA:
-        level: collective ⟨Z⟩ gradient from many knots
-        mechanism: impedance landscape → geodesic refraction
-        range: universal
+  Phase_3_Force_Emergence:
+  - ID: 8_WEAK
+    source: "Single-knot topology transition K(Θ_i)→K(Θ_f)"
+    range: "very short"
+
+  - ID: 9_ELECTROMAGNETISM
+    primary_source:  "Open helical strings (photons, radio waves, light)"
+    secondary_source:"Rotation + dipole oscillation of closed knots (electrons, ions)"
+    unified_mechanism: "All EM = helical motion in Praesto → simultaneous ∇Z (electric) + ∇×v (magnetic)"
+    note: "The photon is the fundamental carrier; charged knots are local dipole radiators"
+
+  - ID: 10_STRONG
+    source: "String tension in three-knot complexes (quarks)"
+    range: "confinement ~1 fm"
+
+  - ID: 11_GRAVITY_INERTIA
+    source: "Collective ⟨Z⟩ gradient from many knots"
+    range: "universal"
 
   Phase_4_Particle_Physics:
     Leptons:  single topological knots (ID6)
@@ -72,6 +113,46 @@ Emergence_Architecture_v3:
     structure:    "4→5→6→7"
     forces:       "8_WEAK → 9_EM → 10_STRONG → 11_GRAVITY"
     particles:    "12_LEPTONS → 13_QUARKS → 14_HADRONS → 15_BOSONS"
+
+Phase_5_Collective_Phenomena:
+  - ID: 16_PLASMA_FORMATION
+    precondition: "High density of charged knots in electrolytic phase"
+    mechanism: "Topological knots become partially or fully ionized"
+    emergent: "Quasi-neutral conducting medium with collective EM response"
+
+  - ID: 17_STELLAR_SYSTEMS
+    mechanism: "Gravitational collapse of plasma → extreme Z & ρ_P gradients"
+    examples: "Stars, accretion disks, jets"
+
+  - ID: 18_COSMIC_CURRENTS
+    mechanism: "Charged particles stream along minimum-Z paths"
+    subtypes:
+      - Birkeland currents (galactic & intergalactic)
+      - Heliospheric current sheet
+      - Galactic jets
+    APT_view: "Cosmic circuitry driven by impedance landscape"
+
+  - ID: 19_PLASMA_BOUNDARIES
+    mechanism: "Sharp Z-discontinuities"
+    examples: "Heliopause, magnetopauses, galaxy cluster edges"
+    prediction: "Particle acceleration & cosmic-ray production at Z-boundaries"
+
+Plasma_Impedance_Effects:
+  Z_plasma: "Z₀ · f(ρ_plasma, T, B)"
+  currents: "Birkeland filaments = minimum-impedance channels"
+  scaling: "Laboratory ↔ cosmic governed by same Z₀ ≈ 273 Ω characteristic impedance"
+
+Heliopause_APT_Interpretation:
+  traditional: "Pressure balance"
+  APT:       "Impedance discontinuity — high-Z solar bubble in low-Z interstellar medium"
+  prediction: "Voyager anomalous cosmic-ray spectrum matches Z-boundary acceleration"
+
+Cosmic_Circuit_Analogy:
+  galaxies:      "voltage sources (high Z)"
+  voids:         "resistors (low Z)"
+  filaments:     "conductors (moderate Z)"
+  power_scale:   "set by universal Z₀"
+
 
 Particle_Ontology:
 
@@ -219,7 +300,7 @@ Predictions:
   - charge_quantization: no fractional charge
   - α_diagnostic: probe ρ_P, Z in extreme environments
 
-# === NEW SECTION: Add under APT (v2.7 → v3.0) ===
+
 APT_Information_Diffusion_Mechanism:
   spatial_diffusion:
     mechanism: "Impedance gradients (Z) dampen coherent information propagation."
