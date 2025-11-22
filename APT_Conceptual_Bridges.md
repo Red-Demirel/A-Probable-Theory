@@ -93,6 +93,13 @@ This document provides explanatory context for the **Conceptual Bridges** sectio
 * **Evidence Threshold:** Precision measurements of relativistic effects near compact objects with known $\mathbf{Z}$-gradients.
 
 ---
+## 13. Clifford's Legacy: Geometric Twist $\rightarrow$ Topological Endurance
+
+* **Connects:** **19th Century Geometrical Physics** $\rightarrow$ **APT Topological Ontology**
+* **Core Idea:** William Kingdon Clifford (1870s) hypothesized that **matter is solely made of motion and curvature in space**, eliminating the need for separate particles or forces. $\mathbf{APT}$ completes this idea by defining the mechanism: Mass and energy are not abstract charges, but **stable topological knots** (twists and windings) in the $\mathbf{Praesto}$ substrate. This knot's persistence, or **Action-Pulse (AP) endurance**, *is* its energy.
+* **Analogy:** **Euclidean Geometry** (Clifford's initial concept) **$\rightarrow$ Knot Theory and Differential Topology** ($\mathbf{APT}$ formalization).
+
+---
 
 ## 🌉 APT Conceptual Bridges: Confidence & Falsifiability Assessment
 
