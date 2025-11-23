@@ -4,7 +4,7 @@ APT:
   substrate: Praesto
   core_mechanism: Action-pulse driven impedance dynamics in topological medium
   version: 2.9
-  sources: 19 documents + 6 extensions + 1 meta-block + 16 conceptual bridges
+  sources: 19 documents + 6 extensions + 1 meta-block + 17 conceptual bridges
   disclaimer: >
     A Probable Theory (APT) does not claim to own truth,
     nor does it aim to replace established physical models.
@@ -65,6 +65,32 @@ Enhanced_Impedance_Function:
     exponential: "matter-induced stiffening (gravity & strong gravity)"
     polynomial:  "background Praesto density response"
     combined:     "complete non-linear dynamics"
+
+Praesto_Impedance_Decomposition:
+  Z_intrinsic:
+    form: "Z₀ · exp[ α (ρ_P/ρ_c – 1) ]"
+    physical_meaning: "Local stiffening due to condensation – grows exponentially above critical density"
+    Z₀: "273 Ω – universal topological coherence threshold (value at ρ_P = ρ_c)"
+
+  Transmissivity_T:
+    form: "T(ρ_P, L) = 1 / [1 + (ρ_t / (ρ_P · L^k))^m ]"
+    physical_meaning: "Geometric connectivity/percolation – how well action-pulses can thread through a region of characteristic size L"
+    behavior:
+      high_ρ_P_short_L: "T ≈ 1  (excellent transmission)"
+      low_ρ_P_long_L:  "T → 0  (transmission collapses → effective insulation)"
+
+  Effective_Resistance_to_Change:
+    primary_form: "R_eff = Z_intrinsic / (T + ε)"
+    alternative_void_form: "R_eff ≈ Z_intrinsic · exp[ σ / (ρ_P·L^k + ρ_s) ]"
+    consequence:
+      - Dense, compact regions (particles, stars): high Z_intrinsic, high T → moderate R_eff
+      - Deep voids (large L, tiny ρ_P): low Z_intrinsic but T→0 → enormous R_eff → photon fatigue, structure dissolution
+      - Mist/dilute vacuum (ρ_P slightly below ρ_c, moderate L): Z_intrinsic ≈ 273 Ω, T ≈ 1 → R_eff ≈ 273 Ω
+      - Linearized wave regime (plane waves in near-Mist): effective wave impedance renormalizes to ≈ 377 Ω via helical string modes
+
+  Emergent_Vacuum_Impedance:
+    dilute_limit: "Z_wave ≈ Z₀ × √(1 + small corrections from open-string geometry) ≈ 377 Ω"
+    explanation: "Measured vacuum impedance is not Z₀ itself, but the transmissivity-renormalized value seen by long-wavelength open helical strings (photons)"
 
 Emergence_Cascade:
 
