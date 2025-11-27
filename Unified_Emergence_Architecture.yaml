@@ -170,6 +170,24 @@ Foundational_Precursor:
       range: "Universal"
       causal_chain: "Many 6_TOPOLOGICAL_KNOTS + 7_COMPOSITE_STRUCTURES → Z-gradient → gravity"
 
+  Force_Unification_Principle:
+  core_insight: "All non-gravitational forces = manifestations of Praesto impedance resistance to topological change"
+  
+  hierarchy:
+    - "Baseline_Z_tension: Electron structure (minimal stable system)"
+    - "Reconfiguration_Z_tension: Weak Force (knot topology changes)" 
+    - "Single_knot_dynamics: EM Force (rotation/helical flow)"
+    - "Confinement_Z_tension: Strong Force (multi-knot complexes)"
+    - "Collective_Z_gradient: Gravity (many-knot statistics)"
+  
+  electron_as_reference:
+    description: "Electron's 2×Möbius structure at d_min represents the minimal system exhibiting stable Z-tension"
+    significance: "Provides baseline for force strength scaling"
+    
+  testable_consequence:
+    - "Weak coupling strength derivable from electron Z-tension parameters"
+    - "Strong force confinement scale related to 3-knot geometric amplification"
+
   # =========================================================================
   # PHASE IV: PARTICLE PHYSICS EMERGENCE (New - explains standard model)
   # =========================================================================
