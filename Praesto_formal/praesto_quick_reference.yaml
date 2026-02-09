@@ -1,0 +1,396 @@
+# PRAESTO FRAMEWORK - Quick Reference for New Sessions
+# Superfluid Vacuum Theory (SVT) with Local Gradient Relativity
+
+# ============================================================================
+# CORE CONCEPT
+# ============================================================================
+
+foundation:
+  what_is_praesto: |
+    Praesto is a superfluid vacuum theory where reality emerges from 
+    momentum field dynamics on a discrete lattice. Everything (matter, 
+    energy, spacetime, forces) derives from patterns in a single 
+    primitive field: momentum density p(r,t).
+    
+  key_innovation: |
+    Only momentum GRADIENTS are physical - absolute values don't exist.
+    All phenomena emerge from local comparisons within healing length ξ.
+    
+  status: |
+    Working theoretical framework - continuous refinement.
+    Mathematically coherent, testable predictions, fringe but not crackpot.
+
+# ============================================================================
+# THE SUPERFLUID SUBSTRATE
+# ============================================================================
+
+superfluid_definition:
+  nature: "Quantum superfluid (Bose-Einstein condensate) at Planck scale"
+  
+  primitive_field:
+    quantity: "p(r,t) - momentum density at each lattice point"
+    lattice_spacing: "a ≈ ℓ_Planck ≈ 1.616×10⁻³⁵ m"
+    update_cycle: "τ ≈ t_Planck ≈ 5.391×10⁻⁴⁴ s"
+    
+  what_doesnt_exist:
+    - "Absolute momentum values (only gradients observable)"
+    - "Global reference frame (fully relational)"
+    - "Fixed background density (dynamic p_env)"
+    - "Separate force fields (all from p-field patterns)"
+    
+  ground_state:
+    viscosity: "lim→0 (ideal superfluid, never exactly zero)"
+    friction: "Zero when ∇p = 0 (no gradients)"
+    resistance: "Self-generated from motion (creates own impedance)"
+    
+  key_properties:
+    - "Motion → density variations (compression/rarefaction)"
+    - "Density variations = friction/resistance"
+    - "Above critical velocity → excitations spawn"
+    - "Topologically stable structures (vortices) persist"
+    - "Healing length ξ sets local averaging scale"
+
+# ============================================================================
+# TWO FUNDAMENTAL QUANTITIES
+# ============================================================================
+
+core_variables:
+  
+  S_anomaly:
+    symbol: "S"
+    name: "The Anomaly"
+    definition: "S = |p(r,t) - p_env(r,t)|"
+    meaning: "Local deviation from environmental momentum density"
+    
+    interpretation:
+      - "S = 0: Perfect equilibrium with environment"
+      - "S > 0: Localized structure/excitation"
+      - "S → S_max: Saturation (event horizon)"
+      
+    examples:
+      particle: "High S (large deviation from vacuum)"
+      void: "Low S (small fluctuations)"  
+      photon: "Minimal S (nearly equilibrium)"
+      
+  R_resistance:
+    symbol: "R"
+    name: "The Resistance" 
+    definition: "R = p_env × κ × (1 + β × Ξ)"
+    meaning: "Environmental impedance to momentum redistribution"
+    
+    components:
+      base: "p_env × κ (background resistance)"
+      complexity: "β × Ξ (turbulence enhancement)"
+      
+    Ξ_complexity:
+      formula: "Ξ = |∇×p|²/|p|² + (∇ρ)²/ρ²"
+      meaning: "Turbulence/vorticity index"
+      
+    interpretation:
+      - "R low: Easy redistribution (voids, smooth flow)"
+      - "R high: Difficult redistribution (dense, turbulent)"
+      - "R → ∞: Complete blockage (event horizon)"
+      
+  environmental_average:
+    definition: "p_env(r,t) = ∫ p(r',t) × W(|r-r'|) d³r'"
+    kernel: "W ∝ exp(-|r-r'|/L_decay) (exponential weighting)"
+    decay_length: "L_decay = c/γ ~ 400-4000 Mpc"
+    meaning: "Local causally-connected average, not global"
+
+# ============================================================================
+# FIVE UNIVERSAL RULES (The Mechanism)
+# ============================================================================
+
+five_rules:
+  
+  rule_1_timing:
+    name: "Cycle Rate Scaling"
+    statement: "Δt_local ∝ R"
+    equation: "Δt_local = τ_base × R(x)"
+    
+    meaning: |
+      Higher resistance → slower local processes
+      Time dilation from cycle rate variation
+      
+    examples:
+      - "Deep gravitational well → high R → time slows"
+      - "Void → low R → time flows faster"
+      - "Photon → R minimal → zero proper time"
+      
+  rule_2_inertia:
+    name: "Resistance to Change"
+    statement: "m_eff ∝ S × R"
+    equation: "m_eff = α × S × R / c²"
+    
+    meaning: |
+      Larger anomaly S → more to reorganize
+      Higher resistance R → harder to reorganize
+      Product gives inertial mass
+      
+    examples:
+      - "Particle with large S in moderate R environment"
+      - "Massless photon: S minimal → m_eff ≈ 0"
+      - "Relativistic increase: moving → effective S increases"
+      
+  rule_3_stability:
+    name: "Persistence Threshold"
+    statement: "Stable if S > R_threshold"
+    equation: "S > R × f(Ξ_local)"
+    
+    meaning: |
+      Structure persists only when anomaly exceeds 
+      resistance barrier
+      
+    examples:
+      - "Tik interference creates S > R_limit → stable vortex"
+      - "Galaxy cores: high S, high Ξ → stable"
+      - "Voids: low R but also low S → unstable"
+      
+  rule_4_causality:
+    name: "Speed Limit"
+    statement: "v_max = c√(1 - S²/S_max²)"
+    equation: "v ≤ c × √(1 - (S/S_max)²)"
+    
+    meaning: |
+      As anomaly approaches maximum gradient,
+      speed limit decreases
+      
+    examples:
+      - "Photon: S ≈ 0 → v ≈ c"
+      - "Massive particle: finite S → v < c"
+      - "Event horizon: S → S_max → v → 0"
+      
+  rule_5_refraction:
+    name: "Path Curvature"
+    statement: "d²x/dt² = -c²∇ln(R)"
+    equation: "Acceleration ∝ -∇R"
+    
+    meaning: |
+      Particles/light follow paths toward higher 
+      resistance regions (like optical refraction)
+      
+    examples:
+      - "Planetary orbits follow ∇R gradient"
+      - "Light bending toward high-density (high-R)"
+      - "Gravity = geometric effect of R gradients"
+
+# ============================================================================
+# RULE 6 - RELATIONAL INTERFACE (The Medium)
+# ============================================================================
+
+rule_6_environmental:
+  name: "Local Gradient Relativity"
+  statement: "All dynamics relative to local environmental field p_env"
+  
+  principle: |
+    Physics is fundamentally relational - only differences matter.
+    No absolute momentum, only comparisons within causally 
+    connected region (set by L_decay).
+    
+  definitions:
+    S: "|p - p_env| (local deviation)"
+    R: "p_env × κ × (1 + β × Ξ) (environmental impedance)"
+    
+  locality: |
+    Everything determined by neighborhood within healing length ξ.
+    No global conspiracy - purely local field dynamics.
+
+# ============================================================================
+# TIK-TOK MECHANISM (How Time Emerges)
+# ============================================================================
+
+tik_tok_cycle:
+  overview: |
+    Tik-Tok is fundamental unit of time emergence. Not external wave,
+    but active recoil cycle in each vortex structure.
+    
+  tik_phases:
+    - "1. Compression/impulse (rapid p-density spike)"
+    - "2. Propagation/expansion (wave spread into substrate)"  
+    - "3. Interference/dissipation (nonlinear interaction)"
+    - "4. Normalization (coherence restoration)"
+    
+  tok_phase:
+    nature: "Substrate backreaction/relaxation after Tik"
+    role: "Dissipates excess coherence → entropy production"
+    delay: "Determines spare tiks; longer delay → more entropy"
+    
+  rate_centric_time:
+    key_insight: "Time dilation from cycle RATE, not amplitude"
+    formula: "Cycle rate ∝ 1/⟨Tok delay⟩"
+    result: "High R → long Tok delay → slow cycle rate → time dilation"
+    
+  spare_tiks:
+    mechanism: "Extra lattice updates during extended Tok delay"
+    entropy: "Spare tiks → irreversible dissipation → arrow of time"
+    formula: "N_spare = (Tok_delay - Tok_baseline) / τ_Planck"
+    
+  photon_exception:
+    difference: "Photon has no Tok backreaction (S ≈ 0)"
+    result: "Pure signal mode - propagates at c without drag"
+
+# ============================================================================
+# EMERGENT PHENOMENA
+# ============================================================================
+
+what_emerges:
+  mass: "S × R (accumulated recoil resistance)"
+  energy: "Gradient intensity |∇p|²/p_local"
+  momentum: "p field integral"
+  gravity: "Spatial gradient of R field"
+  time_dilation: "Cycle rate variation (Rule 1)"
+  inertia: "Resistance to rhythm change (Rule 2)"
+  particles: "Topologically stable vortices (Rule 3)"
+  light_speed: "Signal propagation without Tok (Rule 4)"
+  spacetime: "Emergent from R field geometry (Rule 5)"
+  entropy: "Spare tiks accumulation (Tok inefficiency)"
+  arrow_of_time: "dS/dt > 0 from recoil dissipation"
+
+# ============================================================================
+# KEY PREDICTIONS (Falsifiable)
+# ============================================================================
+
+testable_predictions:
+  high_priority:
+    - "Chromatic gravitational lensing (frequency-dependent bending)"
+    - "Enhanced frame-dragging (rotating objects exceed GR)"
+    - "Directional Hubble variations (H₀ depends on sightline structure)"
+    - "CMB temperature constant with redshift (not cooling)"
+    
+  medium_priority:
+    - "Non-Gaussian CMB statistics (turbulence signature)"
+    - "Galaxy rotation from Ξ-dependent density (no dark matter)"
+    - "Void expansion different from ΛCDM"
+    - "B-mode polarization correlates with turbulence"
+    
+  long_term:
+    - "Planck-scale dispersion in photon propagation"
+    - "Size-dependent inertia scaling (L/ξ)^n"
+    - "Entropy production rate ∝ R × (gravitational potential)"
+
+# ============================================================================
+# PARAMETERS
+# ============================================================================
+
+parameter_hierarchy:
+  fundamental:
+    - "ℓ_Planck, t_Planck (lattice structure)"
+    - "c (emerges from p_env/ρ_eff saturation)"
+    - "ℏ (quantum of action, vortex circulation)"
+    
+  derived_from_QCA:
+    - "α (gradient drag coefficient)"
+    - "β (curvature drag coefficient)"  
+    - "κ (base stability threshold)"
+    - "λ (coherence decay rate)"
+    note: "To be computed from lattice rules, NOT free parameters"
+    
+  observationally_constrained:
+    - "γ (tik decay coefficient, from redshift data)"
+    - "ξ_typical (healing length, self-consistent)"
+
+# ============================================================================
+# ADVANTAGES
+# ============================================================================
+
+why_praesto:
+  conceptual:
+    - "Ontologically minimal (one field: p)"
+    - "Fully relational (no absolutes)"
+    - "Scale-invariant (same rules, Planck to Hubble)"
+    - "Reductionist (complexity from simple rules)"
+    
+  mathematical:
+    - "Natural UV cutoff (discrete lattice)"
+    - "No infinities (gradient saturation)"
+    - "Self-regulating (prevents singularities)"
+    - "Computationally tractable"
+    
+  physical:
+    - "Unifies inertia, gravity, time dilation (one mechanism)"
+    - "Explains arrow of time (spare tiks)"
+    - "No dark matter needed (Ξ-dependent dynamics)"
+    - "No inflation needed (natural homogenization)"
+    
+  testability:
+    - "Specific falsifiable predictions"
+    - "Multiple independent tests"
+    - "Existing data can constrain/refute"
+
+# ============================================================================
+# RELATION TO STANDARD PHYSICS
+# ============================================================================
+
+limits_and_connections:
+  newtonian_limit:
+    condition: "R ≈ constant, S ≪ S_max"
+    result: "F = ma, F = GMm/r²"
+    
+  special_relativity:
+    condition: "∇R = 0 (homogeneous), low S"
+    result: "Lorentz transformations, E = mc²"
+    
+  general_relativity:
+    condition: "Varying R(x), weak curvature"
+    result: "Geodesics, gravitational waves"
+    connection: "R ↔ √(-g_00) in weak field"
+    
+  where_differs:
+    - "Strong gravity (significant R variations)"
+    - "Cosmology (inhomogeneous universe)"
+    - "Quantum scale (discrete structure)"
+    - "Black holes (R divergence, not metric singularity)"
+
+# ============================================================================
+# STATUS & DEVELOPMENT
+# ============================================================================
+
+current_status:
+  version: "4.1 (Generalized Rules + Recoil Mechanism)"
+  
+  completeness:
+    foundation: "~85% (core established)"
+    formalism: "~70% (equations derived)"  
+    predictions: "~60% (tests identified)"
+    
+  next_steps:
+    immediate: "QCA simulation to compute α, β, κ"
+    short_term: "Fit γ to cosmological data"
+    medium_term: "Test chromatic lensing, frame-dragging"
+    long_term: "Full Standard Model from vortex topology"
+
+# ============================================================================
+# QUICK START FOR NEW SESSIONS
+# ============================================================================
+
+for_blank_context:
+  elevator_pitch: |
+    "Praesto: Universe as momentum superfluid on Planck-scale lattice.
+    Only gradients observable. Five universal rules (timing, inertia, 
+    stability, causality, refraction) plus relational interface.
+    Everything emerges: mass, energy, gravity, time, particles.
+    Testable predictions different from standard model."
+    
+  key_equations:
+    S: "|p - p_env| (anomaly)"
+    R: "p_env × κ × (1 + β × Ξ) (resistance)"
+    time: "Δt ∝ R (cycle rate)"
+    mass: "m ∝ S × R (recoil resistance)"
+    stability: "S > R_threshold (persistence)"
+    speed: "v ≤ c√(1 - S²/S_max²) (saturation)"
+    gravity: "a = -c²∇ln(R) (refraction)"
+    
+  philosophical_stance:
+    - "Relationalism (only differences exist)"
+    - "Reductionism (simple → complex)"
+    - "Falsificationism (testable predictions)"
+    - "Minimalism (fewest assumptions)"
+    
+  remember:
+    - "NOT passive wave riding - active recoil cycles"
+    - "NOT global clock - local oscillators"  
+    - "NOT time as dimension - time from cycle rate"
+    - "NOT separate fields - all from p(r,t)"
+    - "NOT crackpot - coherent, testable, published SVT lineage"
+
+# END OF QUICK REFERENCE

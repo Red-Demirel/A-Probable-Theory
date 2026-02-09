@@ -1,0 +1,733 @@
+# ==============================================================================
+# PRAESTO v5.1a - REFINED CORE
+# Relational Momentum Substrate Theory
+# ==============================================================================
+
+metadata:
+  version: 5.1a
+  date: 2026-02-02
+  status: Theoretical framework with testable predictions
+  tagline: "Matter as topology in momentum flow"
+
+# ==============================================================================
+# FOUNDATIONAL ONTOLOGY
+# ==============================================================================
+
+ontology:
+  
+  primitive_field:
+    quantity: p(r,t) - momentum density field
+    nature: Continuous with characteristic correlation length
+    
+  derived_quantities:
+    S_anomaly: |p(r) - p_env(r)| (local deviation from environment)
+    R_resistance: p_env × κ × (1 + β·Ξ) (impedance to redistribution)
+    Ξ_complexity: |∇×p|²/|p|² + (∇ρ)²/ρ² (turbulence index)
+    V_potential: |∇p| (gradient magnitude)
+    Φ_capacity: V/R = |∇p|/R (local process rate)
+    
+  environmental_average:
+    p_env(r): ⟨p⟩_ξ(r) (average over healing length)
+    ξ(r): ℏ/√(m·c·p_env) (self-consistent averaging scale)
+    
+  gauge_principle:
+    statement: p → p + p₀ leaves physics unchanged
+    consequence: Only gradients (∇p) and curvatures (∇²p) are observable
+    
+  planck_scale:
+    role: Substrate grain size (mean free path, not lattice spacing)
+    value: ℓ_Planck ≈ 1.6×10⁻³⁵ m
+    nature: Dynamic and emergent, not fixed coordinate grid
+    
+    cutoff_mechanism:
+      limit: Minimum stable vortex radius r_min ~ ℓ_Planck
+      topology_constraint: |
+        For λ < ℓ_Planck: Cannot achieve topological lock
+        → Structure dissolves into stochastic background
+      consequence: Natural UV regularization from topology, not discretization
+      
+  scale_regimes:
+    macroscopic: 
+      condition: λ >> ℓ_Planck
+      behavior: Laminar/superfluid (continuum limit)
+      physics: Standard field theory valid
+      
+    planck_scale:
+      condition: λ ~ ℓ_Planck
+      behavior: Granular/stochastic (noise floor)
+      physics: Topological instability, quantum foam
+      
+  singularity_prevention:
+    mechanism: |
+      Cannot compress below grain size without energy 
+      shattering into incoherent background.
+      No infinite densities possible.
+    advantage: Natural cutoff from physics, not imposed by hand
+
+# ==============================================================================
+# FUNDAMENTAL INSIGHT
+# ==============================================================================
+
+fundamental_insight:
+  core_claim: |
+    The universe is not made of particles or waves, but of
+    topological excitations in a relational momentum field.
+    
+  paradigm_shift:
+    old_dichotomy: Particle vs Wave
+    new_framework: Topological Complexity Spectrum
+    
+  consequences:
+    wavefunction_collapse: Environmental synchronization (not instantaneous)
+    quantum_entanglement: Pre-existing phase locking (not spooky action)
+    measurement_problem: Topological engagement (not observer-dependent)
+    
+  experimental_reframing:
+    old_question: "Is it particle or wave?"
+    new_question: "What is the vortex topology and local R field?"
+
+# ==============================================================================
+# COMPUTATIONAL CONSIDERATIONS
+# ==============================================================================
+
+computational_implications:
+  
+  substrate_nature:
+    not: Fixed lattice or rigid coordinate grid
+    but: Continuous field with statistical grain size
+    clarification: |
+      Planck scale sets characteristic correlation length,
+      not fundamental discretization of spacetime itself.
+      
+  numerical_implementation:
+    approach: Coarse-grained continuum simulation
+    effective_spacing: a_eff >> ℓ_Planck (typically fm to kpc scale)
+    rationale: Simulating continuum limit, not fundamental discreteness
+    
+  healing_length_dynamics:
+    ξ(r): Emergent averaging scale from p_env field configuration
+    self_consistent: ξ determined by local dynamics, not imposed
+    typical_value: ξ ~ 10²-10⁴ × ℓ_Planck (dynamic, environment-dependent)
+      
+  planck_scale_regime:
+    condition: Where ξ → ℓ_Planck (extreme density/gradient)
+    
+    characteristics:
+      topology: Vortices barely stable (S ≈ S_lock)
+      fluctuations: Stochastic background dominant
+      lifetime: Structures form and dissolve rapidly
+      
+    quantum_foam_equivalence:
+      standard_qft: Virtual particle pairs from vacuum energy
+      praesto: Failed topological locks shattering into noise
+      agreement: Both describe Planck-scale quantum fluctuations
+      
+  advantages:
+    lorentz_invariance: Preserved (no preferred frame)
+    scale_flexibility: Multiple simulation scales natural
+    physical_cutoff: From topology, not numerical artifact
+
+# ==============================================================================
+# FIVE UNIVERSAL MECHANISMS
+# ==============================================================================
+
+mechanisms:
+  
+  rule_1_flow_capacity:
+    statement: Process rate proportional to Φ = V/R
+    formula: dτ = Φ·dt (proper time from flow capacity)
+    
+    interpretation: |
+      Local clocks run at rate determined by gradient/resistance ratio.
+      High R → low Φ → slow processes (gravitational time dilation).
+      
+    manifestation: Time dilation in gravitational wells
+    
+  rule_2_inertia:
+    statement: Inertial mass proportional to S × R
+    formula: m_eff = (α·S·R)/c²
+    
+    interpretation: |
+      Mass emerges from anomaly (what differs) times
+      resistance (how hard to change it).
+      
+    manifestation: Resistance to acceleration
+    
+  rule_3_stability_threshold:
+    statement: |
+      Structure persists when S > S_lock
+      Structure dissolves when S < S_unlock
+      
+    hysteresis: S_unlock < S_lock
+    
+    interpretation: |
+      Protects existing structures from noise.
+      Once locked, harder to unlock than to initially form.
+      
+    manifestation: Particle stability despite quantum fluctuations
+    
+  rule_4_saturation_limit:
+    statement: Maximum velocity v_max = c·√(1 - (S/S_max)²)
+    
+    saturation: S_max = p_env/ℓ_Planck (Planck-scale gradient limit)
+    
+    interpretation: |
+      As anomaly approaches maximum gradient, available
+      phase space for motion decreases.
+      
+    manifestation: Light speed limit (S≈0), Pauli exclusion (S→S_max)
+    
+  rule_5_refraction:
+    statement: Trajectories follow Φ gradients
+    formula: d²x/dt² = -c²·∇ln(Φ) = -c²·[∇ln(V) - ∇ln(R)]
+    
+    components:
+      attractive: -c²·∇ln(R) (toward higher resistance)
+      repulsive: +c²·∇ln(V) (from potential gradient)
+      
+    interpretation: |
+      Gravity emerges from R gradients (attractive).
+      Anti-collapse from V gradients (repulsive).
+      No singularities - repulsion dominates at small scales.
+      
+    manifestation: Geodesics, gravitational lensing, orbital dynamics
+
+# ==============================================================================
+# WAVE DYNAMICS - TIK MECHANISM
+# ==============================================================================
+
+tik_dynamics:
+  nature: Propagating density ripple in p-field
+  
+  wave_equation: ∂²p/∂t² = c²·∇²p - γ·∂p/∂t
+  
+  pulse_structure:
+    compression_phase: Tik (positive excursion, S increases locally)
+    rarefaction_phase: Tok (negative excursion, S decreases)
+    unity: Single propagating pulse, not separate events
+    conservation: Mass/momentum conserved throughout cycle
+    
+  stochastic_background:
+    origin: Quantum and thermal fluctuations
+    isotropy: Arrives from all directions (no preferred source)
+    spectrum: S(ω) = (ℏω³/2π²c³)·[n_thermal + 1/2]
+    
+    role_hierarchy:
+      free_space: Tiks dominant (only dynamics present)
+      stable_structures: Internal circulation dominant, tiks perturbative
+      marginal_structures: Tiks significant (near dissolution threshold)
+      
+    quantum_equivalents:
+      uncertainty: Brownian buffeting of vortex boundaries
+      tunneling: Noise-assisted barrier crossing
+      vacuum_energy: Root-mean-square energy of tik bath
+      
+  vortex_nucleation:
+    trigger: Wave superposition where S > S_lock
+    mechanism: Circulation from radial flow differential
+    result: Vortex-antivortex pair with opposite winding
+    locking_condition: γ·τ_pulse ~ 1 (critical damping pins topology)
+    
+  resonant_transponder_model:
+    external_driver: Stochastic tik background continuously interacts
+    vortex_response: Resonantly couples (active, not passive)
+    energy_flow: Absorption → circulation maintenance → leakage
+    dissipation: Continuous power loss from topological constraint
+    
+    no_discrete_cycles: |
+      Vortex responds continuously to wave bath.
+      No sharp Tik-Tok boundaries - just characteristic timescales.
+
+# ==============================================================================
+# ENTROPY & TIME
+# ==============================================================================
+
+entropy_mechanism:
+  concept: Topological Leakage
+  
+  physical_picture: |
+    Vortex maintains circulation against viscous drag.
+    Maintenance flow continuously leaks energy acoustically.
+    Leakage radiates as incoherent tik background.
+    
+  formula: dS/dt = (γ·Φ·S²)/R
+  
+  interpretation: |
+    Entropy = measurable power dissipation, not abstract disorder.
+    Heat = incoherent tik background from vortex leakage.
+    Second law emerges from γ > 0 (dissipation always positive).
+    
+  arrow_of_time:
+    origin: Irreversible energy flow from coherent to incoherent
+    manifestation: Entropy production dS/dt > 0
+    microscopic: Topological maintenance cost
+    macroscopic: Thermodynamic equilibration
+    
+time_ontology:
+  not_fundamental: Time is sectional measure (like distance along path)
+  definition: τ = ∫ Φ·dt (accumulated phase from flow capacity)
+  
+  emergence_condition: |
+    Requires Ξ > Ξ_crit for irreversible momentum redistribution.
+    Below threshold: Reversible dynamics (no arrow of time).
+    
+  consequence: |
+    No global clock - only local proper time rates.
+    Time = counting flow cycles in each region.
+
+# ==============================================================================
+# COSMOLOGICAL REINTERPRETATIONS
+# ==============================================================================
+
+cosmology:
+  
+  framework: Eternal, inhomogeneous, non-expanding (provisional)
+  
+  redshift_mechanism:
+    not_expansion: z from dissipation, not metric stretching
+    formula: dz/ds = γ(R,∇R)·(1+z)
+    
+    interpretation: |
+      Photons lose energy through varying impedance.
+      Path-dependent accumulation over cosmological distances.
+      
+    advantage: Explains Hubble tension (different paths → different H₀)
+    
+    critical_test:
+      prediction: Surface brightness SB ∝ (1+z)^(-3)
+      standard: SB ∝ (1+z)^(-4)
+      data: JWST high-z galaxy observations
+      
+  cmb_reinterpretation:
+    concept: Acoustic Echogram (steady-state resonance)
+    
+    not_relic: |
+      Continuous tik background in equilibrium, not primordial.
+      Temperature = characteristic energy scale of current substrate.
+      
+    temperature: T_CMB = characteristic tik energy ≈ 2.725 K
+    
+    anisotropies:
+      origin: Current R(r) field variations (not ancient fluctuations)
+      mechanism: Tik refraction through varying impedance
+      
+    acoustic_peaks:
+      first_peak: Standing wave resonance at scale ~c/H₀
+      higher_peaks: Harmonic modes of substrate
+      damping: Below healing length ξ
+      
+    hubble_tension_resolution:
+      mechanism: |
+        Refraction through varying R along different sightlines.
+        Local measurements: dense structure paths.
+        CMB measurements: averaged over many paths.
+        
+    critical_test:
+      prediction: T_CMB(z) ≈ constant (not cooling)
+      standard: T_CMB(z) = T₀(1+z)
+      data: Molecular rotational excitation at high-z
+      
+  dark_matter_alternative:
+    concept: Substrate Wake Field
+    
+    mechanism: |
+      Galaxy motion drags substrate → momentum deficit wake.
+      Wake has elevated R → gravitational effects.
+      Collisionless (field, not particles).
+      
+    observables:
+      flat_rotation: Wake extends beyond visible matter
+      lensing: Elevated R in wake region
+      bullet_cluster: Wakes pass through collisionlessly
+      tully_fisher: v⁴ ∝ M from wake ∝ M×v scaling
+      
+    distinctive_prediction:
+      asymmetry: Trailing edge > leading edge (rotation curve differs)
+      test: Gaia proper motion + radio observations
+      standard_dm: Spherically symmetric (no asymmetry)
+      
+    advantages:
+      no_particles: No exotic matter needed
+      no_fine_tuning: Wake structure from dynamics
+      no_missing_satellites: Problem doesn't arise
+      
+  dark_energy_obsolete:
+    mechanism: Repulsive ∇V component in ∇Φ
+    
+    where_active: Low-density regions where ∇V dominates ∇R
+    
+    effect: |
+      Anti-collapse without cosmological constant.
+      Void expansion from gradient dynamics, not Λ.
+      
+    void_dynamics: High ∇V at void edges → apparent acceleration
+    
+  structure_formation:
+    seeds: Stochastic tik background (no inflation needed)
+    
+    growth_mechanism:
+      condition: S > R threshold satisfied preferentially in high-Ξ regions
+      feedback: Vortices → higher Ξ → easier nucleation → more vortices
+      saturation: Hysteresis prevents destabilization
+      
+    fractal_prediction: |
+      Scale-invariant threshold → power-law clustering.
+      Matches Labini observations naturally.
+      
+    no_horizon_problem: |
+      p_env homogenizes over causally connected region.
+      No need for inflation to explain uniformity.
+      
+  generalized_pauli:
+    microscopic: Fermion overlap → S→S_max → R→∞ → exclusion
+    macroscopic: High density → steep gradients → repulsive barrier
+    
+    consequence: |
+      Planck-density cores maximum (no singularities).
+      Exclusion principle operates at all scales.
+
+# ==============================================================================
+# PARTICLE SPECTRUM
+# ==============================================================================
+
+praesto_particle_spectrum:
+  fundamental_excitations:
+    
+    scalars:
+      higgs:
+        composition: Radial compression pulse (n=0 breathing mode)
+        function: Modulates p_env baseline → sets γ and R floor
+        effect: Induces δR in nearby vortices → apparent mass scaling
+        mechanism: Universe-wide impedance tuning
+        hydro_analog: Breathing mode in superfluid density
+        
+    vectors:
+      photon:
+        composition: Vortex(+n) + Vortex(-n) dipole pair
+        propagation: Phase-locked oscillation at c (S≈0 limit)
+        mass_logic: Coherent cancellation → S≈0 → m_eff≈0
+        coupling: Dipole moment → electromagnetic field
+        hydro_analog: Lossless acoustic wave (phonon limit)
+        
+    fermions:
+      leptons:
+        electron:
+          composition: Möbius-linked vortex pair (+n,+n)
+          topology: 720° return symmetry (double cover)
+          mass: m_e from reinforced circulation + topological strain
+          charge: Net circulation asymmetry in substrate
+          spin: Half-integer from Möbius twist
+          hydro_analog: Locked turbulence knot with hysteresis (S>S_lock)
+          
+        muon_tau:
+          composition: Same Möbius topology with radial excitations
+          mass_scaling: m ∝ n² × m_e from increased Ξ complexity
+          generations: n=1 (electron), n=2 (muon), n=3 (tau)
+          
+        neutrinos:
+          composition: Solo vortex with minimal winding (n_eff=1/2)
+          topology: Isolated circulation defect, potentially Majorana self-conjugate
+          mass_logic: S barely above S_lock → very low R → m_ν ≈ 0
+          spin_logic: Half-integer from non-trivial winding (4π reset)
+          
+          flavors:
+            concept: Three kinds (ν_e, ν_μ, ν_τ)
+            mechanism: Geometric orientations or excitation modes
+            partner_link: Each linked to charged lepton generation
+            
+          oscillations:
+            driver: Stochastic tik background superposition
+            mechanism: Flavor mixing from quantum interference
+            mass_hierarchy: Different m_ν for each flavor
+            
+          interactions:
+            weak_only: Low Ξ → evades strong/EM coupling
+            confinement: Unbound/delocalized (no Z-pinch)
+            propagation: Freely through substrate with minimal drag
+            
+          hydro_analog: Majorana zero modes in topological superfluids
+          note: Gapless fermionic excitations with roton-like instabilities
+          
+      quarks:
+        composition: Higher-winding knots (trefoil, torus, figure-8)
+        topology: Multi-axis windings; color = circulation plane orientation
+        confinement: Z-pinch flux tubes between knots (E ∝ distance)
+        
+        color_charge:
+          red_green_blue: Three orthogonal circulation planes
+          confinement_rule: Substrate cannot heal non-aligned flows
+          flux_tube: Linear energy cost prevents isolation
+          
+        generations:
+          up_down: Simplest knot (n=1)
+          charm_strange: First radial excitation (n=2)
+          top_bottom: Second radial excitation (n=3)
+          mass_scaling: m ∝ n³ from volumetric strain
+          
+        hydro_analog: Self-stabilizing eddies in high-Ξ turbulent regions
+        
+  composite_structures:
+    
+    mesons:
+      composition: Quark + antiquark pair
+      binding: Single flux tube (linear potential)
+      stability: Unstable (can annihilate)
+      example: Pion = lightest meson
+      
+    baryons:
+      composition: Three quarks (RGB color sum = white)
+      binding: Y-junction flux tube network
+      stability: Stable (proton) or quasi-stable (neutron)
+      color_neutrality: Required for substrate healing
+      
+  force_mechanisms:
+    
+    electromagnetic:
+      nature: Dipole oscillation propagation (photon exchange)
+      carrier: Photon (S≈0 → massless)
+      range: Infinite (γ→0 for coherent photons)
+      coupling: To circulation asymmetry (charge)
+      strength: α_EM ≈ 1/137 from substrate impedance
+      
+    strong:
+      nature: Z-pinch flux tube between color charges
+      carrier: Gluon (color-charged vector bosons)
+      potential: V(r) ∝ σ·r (linear confinement)
+      mechanism: Non-aligned circulations prevent substrate healing
+      confinement: Color charges cannot be isolated
+      strength: α_s ≈ 1 at hadronic scales
+      asymptotic_freedom: α_s → 0 as r → 0 (substrate heals locally)
+      
+    weak:
+      nature: Dissonant vortex linkage decay
+      carriers: W±, Z bosons (massive vectors)
+      mass_origin: R_spike from substrate impedance
+      scaling: Exponential suppression exp(-m_W r/ℏ)
+      mechanism: Topology-changing transitions
+      range: ~10⁻¹⁸ m (set by m_W/ℏc)
+      parity_violation: Chiral coupling to linkage handedness
+      
+    gravity:
+      nature: ∇Φ refraction (Rule 5 geometric effect)
+      carrier: None (not mediated, emergent from substrate)
+      range: Infinite (Φ field everywhere)
+      strength: G from p_env density and κ,β coefficients
+      equivalence: Inertial = gravitational mass (same S×R origin)
+      
+  higgs_mechanism:
+    
+    field_nature: p_env modulation (breathing mode of substrate)
+    vev: ⟨p_env⟩ sets baseline impedance R₀
+    
+    mass_generation:
+      mechanism: Vortices couple to p_env → δR enhancement
+      fermions: Yukawa coupling g_f → m_f = g_f × ⟨p_env⟩
+      vectors: W/Z acquire mass via substrate impedance
+      photon_exception: Dipole cancellation → no p_env coupling
+      
+    higgs_boson:
+      composition: Excitation of p_env field (radial pulse)
+      mass: m_H = √(λ) × ⟨p_env⟩ from self-coupling
+      decay: To heaviest kinematically allowed particles
+      
+    advantage_over_standard:
+      no_scalar_field: Higgs is p_env dynamics, not separate field
+      natural_hierarchy: Yukawa couplings from vortex topology
+      unification: Mass from same mechanism as inertia (S×R)
+
+# ==============================================================================
+# PARAMETER ECONOMY
+# ==============================================================================
+
+parameters:
+  fundamental_constants:
+    given: ℓ_Planck, ℏ, c (universal, not theory-specific)
+    
+  theoretical_parameters:
+    α: Gradient drag coefficient (from QCA lattice rules)
+    β: Curvature enhancement (from vortex quantization)
+    κ: Stability threshold (from nucleation simulations)
+    λ: Coherence decay rate (from dissipation dynamics)
+    status: Computable from first principles, not fitted
+    
+  observational_constraint:
+    γ: Dissipation coefficient (from redshift-distance relation)
+    count: 1 single cosmological parameter
+    
+  comparison:
+    lambda_cdm: 20-30 free parameters (fitted to observations)
+    praesto: 1 free parameter + 4 derived (QCA computable)
+    reduction: 20× fewer free parameters
+
+# ==============================================================================
+# VARIABLE UNIFICATION
+# ==============================================================================
+
+unification_table:
+  single_mechanism: Substrate momentum dynamics (S vs R threshold + Φ)
+  
+  replaces_dark_matter:
+    wimp: → Substrate wake + sub-resolution vortices
+    cdm: → Same mechanism, different observation scale
+    vhdm: → High-mass vortex configurations
+    axion: → Unnecessary (no particle needed)
+    
+  replaces_dark_energy:
+    lambda: → ∇Φ repulsion from ∇V term
+    quintessence: → Unnecessary (no evolving field)
+    phantom: → Unnecessary (no exotic equation of state)
+    
+  replaces_inflation:
+    single_field: → Stochastic tik background
+    multi_field: → Unnecessary (no horizon problem)
+    hybrid: → Unnecessary (no phase transition)
+    
+  replaces_modified_gravity:
+    mond: → ∇R gradient scale (a₀ = c·H₀ emerges)
+    teves: → Unnecessary (no tensor field)
+    f_r_gravity: → R is fundamental quantity, not modification
+    
+  total_unification: ~15 ad-hoc variables → 1 mechanism
+
+# ==============================================================================
+# OBSERVATIONAL TESTS
+# ==============================================================================
+
+critical_tests:
+  
+  tier_1_falsifiable:
+    
+    surface_brightness:
+      prediction: SB ∝ (1+z)^(-3±0.1)
+      standard: SB ∝ (1+z)^(-4)
+      dataset: JWST high-z galaxies
+      status: Testable now
+      impact: Immediate falsification if wrong
+      
+    wake_asymmetry:
+      prediction: Rotation curve differs leading vs trailing edge
+      standard: Spherically symmetric (no asymmetry)
+      dataset: Gaia proper motion + radio observations
+      status: Data exists, needs analysis
+      impact: Distinctive prediction particle DM cannot explain
+      
+    directional_hubble:
+      prediction: H₀ varies ~10% with sightline LSS density
+      standard: H₀ isotropic (variations are systematics)
+      dataset: SNe Ia stratified by void/filament paths
+      status: Testable with Pantheon+ × SDSS/DESI
+      impact: Explains Hubble tension
+      
+  tier_2_supporting:
+    tully_fisher: v⁴ ∝ M (predicted naturally vs empirical in ΛCDM)
+    void_galaxies: Brighter/more diffuse (predicted vs standard expectations)
+    cmb_non_gaussian: Kolmogorov turbulence vs Gaussian initial conditions
+    
+  tier_3_novel:
+    void_time_dilation: Clocks run faster in voids (Φ higher)
+    environmental_alpha: α_EM varies with R field
+    gw_dispersion: High-frequency arrives earlier (dispersive substrate)
+    qca_robustness: Structure from random initial p-field
+
+# ==============================================================================
+# PHILOSOPHICAL FOUNDATION
+# ==============================================================================
+
+philosophy:
+  position: The Necessary Plenum
+  
+  core_axioms:
+    axiom_0: Absolute void is mathematical abstraction, not physical state
+    axiom_1: Substrate is ground state (exists by default, not created)
+    axiom_2: Symmetry emerges from large-scale stochastic averages
+    axiom_3: Substrate self-starting (requires no external input)
+    
+  logic_path: |
+    Observation: Matter exists
+    → Requirement: Topological substrate needed
+    → Conclusion: Discrete momentum lattice minimal
+    → Verification: Structure from random initial state
+    
+  big_bang_reinterpretation: |
+    Not creation event, but observational threshold where substrate 
+    complexity Ξ reached level sufficient for emergent time and 
+    stable structures. No beginning—substrate eternally evolving.
+    
+  comparison:
+    perfect_nothing: Requires infinite constraints (no energy, no change, no quantum)
+    discrete_substrate: Requires minimal rules (5 mechanisms + local updates)
+    operational_test: Only substrate "works out of the box" (self-starting)
+    
+  response_to_objections:
+    why_substrate: Same mystery as "why void" but substrate is functional
+    regress_pushed: No—changed question from "why existence?" to "why structure?"
+    testability: QCA robustness check makes ontology empirical
+
+# ==============================================================================
+# VERSION HISTORY
+# ==============================================================================
+
+version_delta:
+  from: v5.0
+  to: v5.1a
+  
+  removed:
+    - Discrete universal clock (violated relativity)
+    - Fundamental time dimension (made emergent instead)
+    - Fixed lattice language (replaced with grain size)
+    
+  added:
+    - Flow capacity formalism Φ = V/R (electrical analogy)
+    - Topological leakage entropy (concrete, measurable)
+    - Acoustic echogram CMB (steady-state, not relic)
+    - Substrate wake dark matter (field effect, testable asymmetry)
+    - Generalized Pauli exclusion (gradient saturation at all scales)
+    - Stochastic non-interference (hysteresis protects structures)
+    - Resonant transponder model (replaces discrete Tik-Tok cycles)
+    - Planck scale as grain size (dynamic, not rigid grid)
+    
+  refinements:
+    - Time fully sectional (no global coordination required)
+    - Rule 5 includes repulsive term (∇V component prevents singularities)
+    - Entropy as power dissipation (not abstract disorder)
+    - CMB explains Hubble tension (refraction mechanism)
+    - Dark matter predictions distinct from particles (asymmetry testable)
+    - Consistent English terminology throughout
+    - Derived quantities in ontology section
+    - Computational implications clarified
+
+# ==============================================================================
+# STATUS & PRIORITIES
+# ==============================================================================
+
+framework_status:
+  theoretical: High completeness, internal consistency
+  computational: Algorithms clear, scale challenging
+  observational: Suggestive hints, requires rigorous tests
+  
+next_steps:
+  immediate:
+    1: Surface brightness analysis (JWST data, falsifiable now)
+    2: Directional H₀ study (SNe Ia × LSS cross-correlation)
+    3: QCA implementation (compute α,β,κ,λ from first principles)
+    
+  short_term:
+    1: 3D cosmological simulation (structure from random p-field)
+    2: Rotation curve asymmetry search (Gaia + radio data)
+    3: CMB power spectrum prediction (compare to Planck)
+    
+  medium_term:
+    1: Full Standard Model spectrum from vortex topologies
+    2: Environmental constant variation searches
+    3: Void physics signatures in surveys
+    
+key_claim: |
+  Single mechanism (substrate momentum dynamics) replaces ~20 
+  free parameters from standard cosmology, while making distinct 
+  testable predictions. If correct, represents unification comparable 
+  to oxygen replacing phlogiston variants, relativity replacing ether 
+  models, or heliocentrism replacing epicycles.
+
+# ==============================================================================
+# END v5.1a
+# ==============================================================================
