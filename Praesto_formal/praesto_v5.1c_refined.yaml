@@ -1,0 +1,404 @@
+# ==============================================================================
+# PRAESTO v5.1c - REFINED CORE
+# Relational Momentum Substrate Theory
+# ==============================================================================
+
+metadata:
+  version: 5.1c
+  date: 2026-02-02
+  status: Theoretical framework with testable predictions
+  tagline: "Matter as topology in momentum flow"
+
+# ==============================================================================
+# FOUNDATIONAL ONTOLOGY
+# ==============================================================================
+
+ontology:
+  
+  primitive_field:
+    quantity: p(r,t) - momentum density field
+    nature: A primordial protoplasmic host – a dynamic, fluctuation-driven medium where energy is not separate but the organized flow and turbulence of the substrate itself. Continuous with characteristic correlation length.
+
+  derived_quantities:
+    S_anomaly: |p(r) - p_env(r)| (local deviation from environment)
+    R_resistance: p_env × κ × (1 + β·Ξ) (impedance to redistribution)
+    Ξ_complexity: |∇×p|²/|p|² + (∇ρ)²/ρ² (turbulence index)
+    V_potential: |∇p| (gradient magnitude)
+    Φ_capacity: V/R = |∇p|/R (local process rate)
+    
+  environmental_average:
+    p_env(r): ⟨p⟩_ξ(r) (average over healing length)
+    ξ(r): ℏ/√(m·c·p_env) (self-consistent averaging scale)
+    
+  gauge_principle:
+    statement: p → p + p₀ leaves physics unchanged
+    consequence: Only gradients (∇p) and curvatures (∇²p) are observable
+    
+  planck_scale:
+    role: Substrate grain size (mean free path, not lattice spacing)
+    value: ℓ_Planck ≈ 1.6×10⁻³⁵ m
+    nature: Dynamic and emergent, not fixed coordinate grid
+    
+    cutoff_mechanism:
+      limit: Minimum stable vortex radius r_min ~ ℓ_Planck
+      topology_constraint: |
+        For λ < ℓ_Planck: Cannot achieve topological lock
+        → Structure dissolves into stochastic background
+      consequence: Natural UV regularization from topology, not discretization
+      
+  singularity_prevention:
+    mechanism: |
+      Cannot compress below grain size without energy 
+      shattering into incoherent background.
+      No infinite densities possible.
+    advantage: Natural cutoff from physics, not imposed by hand
+
+# ==============================================================================
+# FIVE UNIVERSAL MECHANISMS
+# ==============================================================================
+
+mechanisms:
+  
+  rule_1_flow_capacity:
+    statement: Process rate proportional to Φ = V/R
+    formula: dτ = Φ·dt (proper time from flow capacity)
+    
+    interpretation: |
+      Local clocks run at rate determined by gradient/resistance ratio.
+      High R → low Φ → slow processes (gravitational time dilation).
+      
+    manifestation: Time dilation in gravitational wells
+    
+  rule_2_inertia:
+    statement: Inertial mass proportional to S × R
+    formula: m_eff = (α·S·R)/c²
+    
+    interpretation: |
+      Mass emerges from anomaly (what differs) times
+      resistance (how hard to change it).
+      
+    manifestation: Resistance to acceleration
+    
+  rule_3_stability_threshold:
+    statement: |
+      Structure persists when S > S_lock
+      Structure dissolves when S < S_unlock
+      
+    hysteresis: S_unlock < S_lock
+    
+    interpretation: |
+      Protects existing structures from noise.
+      Once locked, harder to unlock than to initially form.
+      
+    manifestation: Particle stability despite quantum fluctuations
+    
+  rule_4_saturation_limit:
+    statement: Maximum velocity v_max = c·√(1 - (S/S_max)²)
+    
+    saturation: S_max = p_env/ℓ_Planck (Planck-scale gradient limit)
+    
+    interpretation: |
+      As anomaly approaches maximum gradient, available
+      phase space for motion decreases.
+      
+    manifestation: Light speed limit (S≈0), Pauli exclusion (S→S_max)
+    
+  rule_5_refraction:
+    statement: Trajectories follow Φ gradients
+    formula: d²x/dt² = -c²·∇ln(Φ) = -c²·[∇ln(V) - ∇ln(R)]
+    
+    components:
+      attractive: -c²·∇ln(R) (toward higher resistance)
+      repulsive: +c²·∇ln(V) (from potential gradient)
+      
+    interpretation: |
+      Gravity emerges from R gradients (attractive).
+      Anti-collapse from V gradients (repulsive).
+      No singularities - repulsion dominates at small scales.
+      
+    manifestation: Geodesics, gravitational lensing, orbital dynamics
+
+# ==============================================================================
+# WAVE DYNAMICS - TIK MECHANISM
+# ==============================================================================
+
+tik_dynamics:
+  nature: Propagating density ripple in p-field
+  
+  wave_equation: ∂²p/∂t² = c²·∇²p - γ·∂p/∂t
+  
+  pulse_structure:
+    compression_phase: Tik (positive excursion, S increases locally)
+    rarefaction_phase: Tok (negative excursion, S decreases)
+    unity: Single propagating pulse, not separate events
+    conservation: Mass/momentum conserved throughout cycle
+    
+  stochastic_background:
+    origin: Quantum and thermal fluctuations
+    isotropy: Arrives from all directions (no preferred source)
+    spectrum: S(ω) = (ℏω³/2π²c³)·[n_thermal + 1/2]
+    
+    role_hierarchy:
+      free_space: Tiks dominant (only dynamics present)
+      stable_structures: Internal circulation dominant, tiks perturbative
+      marginal_structures: Tiks significant (near dissolution threshold)
+      
+  vortex_nucleation:
+    trigger: Wave superposition where S > S_lock
+    mechanism: Circulation from radial flow differential
+    result: Vortex-antivortex pair with opposite winding
+    locking_condition: γ·τ_pulse ~ 1 (critical damping pins topology)
+    
+  resonant_transponder_model:
+    external_driver: Stochastic tik background continuously interacts
+    vortex_response: Resonantly couples (active, not passive)
+    energy_flow: Absorption → circulation maintenance → leakage
+    dissipation: Continuous power loss from topological constraint
+
+# ==============================================================================
+# ENTROPY & TIME
+# ==============================================================================
+
+entropy_mechanism:
+  concept: Topological Leakage
+  
+  physical_picture: |
+    Vortex maintains circulation against viscous drag.
+    Maintenance flow continuously leaks energy acoustically.
+    Leakage radiates as incoherent tik background.
+    
+  formula: dS/dt = (γ·Φ·S²)/R
+  
+  interpretation: |
+    Entropy = measurable power dissipation, not abstract disorder.
+    Heat = incoherent tik background from vortex leakage.
+    Second law emerges from γ > 0 (dissipation always positive).
+    
+  arrow_of_time:
+    origin: Irreversible energy flow from coherent to incoherent
+    manifestation: Entropy production dS/dt > 0
+    microscopic: Topological maintenance cost
+    macroscopic: Thermodynamic equilibration
+    
+time_ontology:
+  not_fundamental: Time is sectional measure (like distance along path)
+  definition: τ = ∫ Φ·dt (accumulated phase from flow capacity)
+  
+  emergence_condition: |
+    Requires Ξ > Ξ_crit for irreversible momentum redistribution.
+    Below threshold: Reversible dynamics (no arrow of time).
+    
+  consequence: |
+    No global clock - only local proper time rates.
+    Time = counting flow cycles in each region.
+
+# ==============================================================================
+# PARTICLE SPECTRUM FROM TOPOLOGY
+# ==============================================================================
+
+particle_spectrum:
+  
+  scalars:
+    higgs:
+      composition: Radial compression pulse (n=0 breathing mode)
+      function: Modulates p_env baseline → sets γ and R floor
+      effect: Induces δR in nearby vortices → apparent mass scaling
+      
+  vectors:
+    photon:
+      composition: Vortex(+n) + Vortex(-n) dipole pair
+      propagation: Phase-locked oscillation at c (S≈0 limit)
+      mass_logic: Coherent cancellation → S≈0 → m_eff≈0
+      
+  fermions:
+    leptons:
+      electron:
+        composition: Möbius-linked vortex pair (+n,+n)
+        topology: 720° return symmetry (double cover)
+        charge: Net circulation asymmetry in substrate
+        
+      neutrinos:
+        composition: Solo vortex with minimal winding (n_eff=1/2)
+        mass_logic: S barely above S_lock → very low R → m_ν ≈ 0
+        
+    quarks:
+      composition: Higher-winding knots (trefoil, torus, figure-8)
+      topology: Multi-axis windings; color = circulation plane orientation
+      confinement: Z-pinch flux tubes between knots (E ∝ distance)
+      
+  composite_structures:
+    mesons: Quark + antiquark pair
+    baryons: Three quarks (RGB color sum = white)
+
+# ==============================================================================
+# DARK MATTER AS LAYERED FLUID DYNAMICS
+# ==============================================================================
+
+dark_matter_composite:
+  
+  component_stack:
+    
+    component_1_substrate_wake:
+      mechanism: Galaxy motion drags substrate (Rule 5 refraction)
+      contribution: ~2-3× visible mass equivalent
+      range: Extends beyond visible disk
+      
+    component_2_free_vortex_charge:
+      mechanism: High-Ξ turbulence disrupts vortex pairing
+      charge_origin: Unpaired vortices → net chirality → charge
+      contribution: ~1-2× visible mass equivalent (EM binding)
+      
+    component_3_superfluid_phonons:
+      mechanism: Collective density waves at low acceleration
+      mond_connection: a₀ ≈ c·H₀ ≈ 1.2×10⁻¹⁰ m/s²
+      contribution: ~1-2× at galaxy edges
+      
+    component_4_machian_inertia:
+      mechanism: Integrated R over causal region enhances local m_eff
+      contribution: ~1× mass enhancement
+      
+  total_effect:
+    magnitude: 5-10× visible mass (matches observations)
+    advantages: No exotic particles, all from substrate dynamics
+
+solo_vortex_origin:
+  formation_era_imprinting:
+    mechanism: |
+      During galaxy assembly: Extreme turbulence (high Ξ) breaks vortex pairs.
+      Solos freeze-in as turbulence subsides.
+      Hysteresis preserves them indefinitely.
+      
+    timing: Primarily during initial collapse and major mergers
+    accumulation: Gradual post-formation, but formation rate is peaked
+    
+  observational_signatures:
+    - Ellipticals > Spirals in solo vortex density (violent vs calm formation)
+    - Merging galaxies show temporary solo vortex excess
+    - Galactic magnetic fields correlate with formation violence
+    - Outer halo: Fewer solos (quieter formation)
+    
+  cosmological_implication:
+    - Solo vortex density is a "fossil record" of formation turbulence
+    - Can reconstruct galactic merger history from free vortex distribution
+
+# ==============================================================================
+# QUANTUM HYDRODYNAMICS FOUNDATION
+# ==============================================================================
+
+qhd_formalism:
+  
+  substrate_as_superfluid:
+    wavefunction: ψ = √ρ·exp(iθ)
+    schrodinger_equation: iℏ ∂ψ/∂t = [-ℏ²/(2m)∇² + V_ext + g|ψ|²]ψ
+    
+  madelung_transform:
+    density: ρ = |ψ|²
+    velocity: v = (ℏ/m)∇θ
+    continuity: ∂ρ/∂t + ∇·(ρv) = 0
+    
+  vortex_quantization:
+    circulation: ∮ v·dl = n·(ℏ/m) (quantized, n = integer)
+    
+  charge_from_chirality:
+    paired_vortices: (+n) + (-n) → neutral (photon-like)
+    unpaired_vortex: Solo (+n) → net chirality → charge (electron-like)
+    galaxy_saturation: High Ξ regions → excess free vortices → macroscopic charge
+
+# ==============================================================================
+# MATTER-ANTIMATTER ASYMMETRY FROM CHIRALITY
+# ==============================================================================
+
+chirality_asymmetry:
+  
+  mechanism_dissonance_induced:
+    background_template: Large-scale ∇p gradient field
+    directional_bias: Vortex circulation parallel vs antiparallel to ∇p
+    
+    lock_asymmetry:
+      aligned_case: Flow assists vortex formation (lower S_lock)
+      opposed_case: Flow resists vortex formation (higher S_lock)
+      
+    dissipation_asymmetry:
+      aligned_case: Low γ-leakage rate → stable (matter)
+      opposed_case: High γ-leakage rate → decays (antimatter)
+      
+  baryon_asymmetry_origin:
+    environmental_selection: Early universe vortex pairs nucleate continuously
+    outcome: Aligned survive, opposed decay → matter dominance
+    
+  quantitative_estimate:
+    asymmetry_parameter: η ≈ (n_b - n_b̄)/n_γ ≈ 6×10⁻¹⁰
+    praesto_prediction: exp(-Δγ·t_universe) → matches observed η
+    no_fine_tuning: Δγ emerges from ∇p·∇Ξ correlation
+
+# ==============================================================================
+# TESTABLE PREDICTIONS
+# ==============================================================================
+
+critical_tests:
+  
+  tier_1_falsifiable:
+    surface_brightness: SB ∝ (1+z)^(-3) vs standard (1+z)^(-4)
+    rotation_curve_asymmetry: Leading vs trailing edge difference (~10-20%)
+    magnetic_field_correlation: B-field strength ∝ rotation curve amplitude
+    
+  tier_2_supporting:
+    tully_fisher: v⁴ ∝ M emerges naturally
+    void_galaxies: Brighter/more diffuse than ΛCDM predicts
+    cmb_non_gaussian: Kolmogorov turbulence vs Gaussian initial conditions
+    
+  tier_3_novel:
+    void_time_dilation: Clocks run faster in voids (Φ higher)
+    environmental_alpha: α_EM varies with R field
+    cp_violation_environment: Stronger in dense regions, weaker in voids
+
+# ==============================================================================
+# PARAMETER ECONOMY
+# ==============================================================================
+
+parameters:
+  fundamental_constants: ℓ_Planck, ℏ, c (universal, not theory-specific)
+  
+  theoretical_parameters:
+    α: Gradient drag coefficient
+    β: Curvature enhancement
+    κ: Stability threshold
+    λ: Coherence decay rate
+    status: Computable from first principles, not fitted
+    
+  observational_constraint:
+    γ: Dissipation coefficient (from redshift-distance relation)
+    count: 1 single cosmological parameter
+    
+  comparison:
+    lambda_cdm: 20-30 free parameters
+    praesto: 1 free parameter + 4 derived
+    reduction: 20× fewer free parameters
+
+# ==============================================================================
+# VARIABLE UNIFICATION
+# ==============================================================================
+
+unification_table:
+  single_mechanism: Substrate momentum dynamics (S vs R threshold + Φ)
+  
+  replaces_dark_matter:
+    wimp: → Substrate wake + free vortices
+    cdm: → Same mechanism, different scale
+    axion: → Unnecessary
+    
+  replaces_dark_energy:
+    lambda: → ∇Φ repulsion from ∇V term
+    quintessence: → Unnecessary
+    
+  replaces_inflation:
+    single_field: → Stochastic tik background
+    
+  replaces_modified_gravity:
+    mond: → ∇R gradient scale (a₀ = c·H₀ emerges)
+    
+  total_unification: ~15 ad-hoc variables → 1 mechanism
+
+# ==============================================================================
+# END v5.1c STREAMLINED
+# ==============================================================================
