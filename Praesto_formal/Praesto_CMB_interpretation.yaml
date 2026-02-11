@@ -1,0 +1,488 @@
+# ==============================================================================
+# PRAESTO CMB REINTERPRETATION - Technical Supplement
+# ==============================================================================
+# Version: Aligned with v5.1c/v5.2
+# Status: Speculative - requires observational validation
+# Date: February 2026
+
+metadata:
+  framework_version: v5.1c / v5.2
+  status: Provisional reinterpretation requiring validation
+  warning: |
+    This section makes strong cosmological claims diverging from 
+    standard ΛCDM. Present as testable hypothesis, not established fact.
+
+# ==============================================================================
+# STANDARD VS PRAESTO INTERPRETATION
+# ==============================================================================
+
+interpretation_comparison:
+  
+  standard_λcdm:
+    name: Relic Radiation from Hot Big Bang
+    
+    origin: |
+      Cooled remnant from hot, dense, uniform early universe.
+      Produced by thermal equilibrium in opaque plasma.
+      Decoupled at recombination (z ≈ 1100, t ≈ 380,000 yr).
+      
+    key_observables:
+      blackbody: Near-perfect at T₀ = 2.7255 K
+      isotropy: ΔT/T ≈ 10⁻⁵ after dipole subtraction
+      uniformity: From global thermal equilibrium before expansion
+      
+    requirements:
+      - Strong cosmological principle (global homogeneity)
+      - Hot dense origin (T > 3000 K everywhere)
+      - Inflation (solve horizon + flatness problems)
+      - Metric expansion (stretches wavelengths)
+      
+  praesto_alternative:
+    name: Acoustic Echogram / Steady-State Resonance
+    
+    origin: |
+      Ongoing equilibrium feature of eternal, inhomogeneous substrate.
+      Continuous thermalization of stochastic tik background.
+      Not relic of single primordial event.
+      
+    key_mechanisms:
+      tik_bath: Quantum zero-point + thermal fluctuations (persistent)
+      thermalization: Scattering + dissipation over healing length ξ
+      temperature: T_CMB = characteristic energy scale of tik equilibrium
+      anisotropies: Current R(r) and Ξ(r) field variations
+      acoustic_peaks: Standing wave resonances in substrate
+      
+    no_requirements:
+      - No global hot phase
+      - No metric expansion
+      - No inflation
+      - No initial homogeneity assumption
+
+# ==============================================================================
+# THERMODYNAMIC EQUILIBRIUM
+# ==============================================================================
+
+thermal_balance:
+  
+  equilibrium_condition:
+    heating: Vortex topological leakage (continuous input)
+    cooling: Radiative loss to infinity (Stefan-Boltzmann)
+    balance: T_CMB where heating = cooling
+    
+  heating_rate:
+    formula: Q_in = ∫ (γ·Φ·S²) d³r
+    
+    interpretation: |
+      All stable vortices leak energy acoustically.
+      Leakage becomes incoherent tik background.
+      Background thermalizes to blackbody.
+      
+    scaling: Q_in ∝ ρ_vortex × (energy per vortex) ∝ R(r)
+    
+  cooling_rate:
+    formula: Q_out = σ·T⁴·A_surface (Stefan-Boltzmann)
+    
+    interpretation: |
+      Thermal radiation escapes to infinity.
+      Substrate transparent to thermal wavelengths.
+      
+  equilibrium_temperature:
+    balance: Q_in = Q_out
+    
+    derivation:
+      step_1: γ·Φ·S²·V = σ·T⁴·A
+      step_2: For self-similar region, A/V ~ 1/L
+      step_3: Φ·S² ~ R (since Φ = V/R, S² equilibrates)
+      step_4: T⁴ ∝ R·L → T ∝ (R·L)^(1/4)
+      
+    local_scaling:
+      formula: T_CMB(r) ∝ R(r)^α
+      
+      α_determination:
+        stefan_boltzmann: α = 1/4 (if L constant)
+        dissipative_equilibrium: α = 1/2 (if cooling ∝ T⁴ balanced by R)
+        
+      empirical_constraint: |
+        Observed T_CMB(z) ∝ (1+z)^0.989
+        With R(z) ∝ (1+z)^β, this gives αβ ≈ 1
+        If β ≈ 2 (density scaling), then α ≈ 0.5 ✓
+
+# ==============================================================================
+# REDSHIFT TEMPERATURE SCALING
+# ==============================================================================
+
+temperature_evolution:
+  
+  dissipative_redshift:
+    formula: dz/ds = γ(R,∇R)·(1+z)
+    
+    interpretation: |
+      Photons lose energy through varying impedance.
+      Not Doppler from expansion - dissipation in substrate.
+      
+  impedance_scaling:
+    model: R(z) ∝ (1+z)^β
+    
+    physical_basis: |
+      Higher z → higher density → higher R
+      β ≈ 2 from ρ ∝ (1+z)³ and R ∝ ρ^(2/3)
+      
+  temperature_prediction:
+    formula: T_CMB(z) = T₀ × (1+z)^(αβ)
+    
+    praesto_value: |
+      With α = 0.5 and β = 2:
+      T_CMB(z) = T₀ × (1+z)^1.0
+      
+    comparison:
+      standard: T_CMB(z) = T₀ × (1+z) [exact from expansion]
+      observed: T_CMB(z) ∝ (1+z)^(0.989±0.012) [Planck + absorbers]
+      praesto: T_CMB(z) = T₀ × (1+z)^1.0 [with α=0.5, β=2]
+      
+    agreement: Praesto matches observations within errors ✓
+    
+  advantage_over_standard:
+    no_fine_tuning: |
+      Standard: T ∝ (1+z) exactly from expansion (coincidence?)
+      Praesto: T ∝ (1+z)^(αβ) where α,β emerge from dynamics
+      
+    allows_deviations: |
+      If α or β vary with environment, T_CMB(z) can deviate.
+      Standard strictly requires (1+z), no flexibility.
+
+# ==============================================================================
+# ANISOTROPIES & ACOUSTIC PEAKS
+# ==============================================================================
+
+anisotropy_origin:
+  
+  not_primordial:
+    standard: Initial density fluctuations at recombination
+    praesto: Current R(r) and Ξ(r) field variations
+    
+  mechanism:
+    refraction: |
+      Tiks propagate through varying R field.
+      Path bends toward high-R regions (Rule 5).
+      Creates apparent temperature variations.
+      
+    dissipation: |
+      High-Ξ regions scatter/absorb tiks more.
+      Appears as temperature decrements (cold spots).
+      
+    standing_waves: |
+      Substrate resonances at characteristic scales.
+      Creates acoustic peak structure in power spectrum.
+      
+  acoustic_peaks:
+    
+    first_peak:
+      scale: λ₁ ~ c/H₀ ≈ 14 Gpc (sound horizon)
+      mechanism: Fundamental resonance of substrate
+      interpretation: Standing wave at healing length Ξ_coherence
+      
+    higher_peaks:
+      scales: λₙ = λ₁/n (harmonics)
+      mechanism: Overtones of fundamental resonance
+      damping: Dissipation at scales < ξ (healing length)
+      
+    comparison_to_standard:
+      standard: Baryon-photon oscillations frozen at recombination
+      praesto: Ongoing resonances in current substrate
+      
+    prediction_difference: |
+      Standard: Peak positions fixed by early universe physics
+      Praesto: Peaks shift if H₀ or substrate properties vary
+      
+  polarization:
+    
+    e_modes:
+      origin: Tik scattering in laminar flow (low Ξ)
+      mechanism: Thomson-like scattering preserves quadrupole
+      
+    b_modes:
+      origin: Tik scattering in turbulent flow (high Ξ)
+      mechanism: Vorticity creates B-mode polarization
+      
+    prediction: |
+      B-mode power should correlate with turbulence tracers.
+      Test: Cross-correlate B-modes with galaxy velocity dispersion.
+
+# ==============================================================================
+# DIPOLE ANOMALY
+# ==============================================================================
+
+dipole_reinterpretation:
+  
+  standard_interpretation:
+    kinematic_only: |
+      CMB dipole from Solar System motion through CMB rest frame.
+      Amplitude: ΔT/T ≈ 3.36×10⁻³
+      Velocity: v_obs ≈ 370 km/s toward Galactic (l,b) ≈ (264°, 48°)
+      
+  observed_anomaly:
+    radio_source_excess: |
+      Radio source number counts show 2-4× excess relative to
+      kinematic dipole prediction in certain directions.
+      
+    interpretation_challenge: |
+      If dipole purely kinematic, radio sources should show
+      same amplitude and direction. They don't.
+      
+  praesto_resolution:
+    
+    two_components:
+      kinematic: v_obs motion through tik bath (standard Doppler)
+      intrinsic: ∇R gradient field (substrate asymmetry)
+      
+    total_dipole:
+      formula: d_total = d_kinematic + d_intrinsic
+      
+    radio_source_coupling:
+      mechanism: |
+        Radio sources couple to intrinsic ∇R component.
+        Different spectral index → different R sensitivity.
+        Creates excess beyond kinematic expectation.
+        
+    prediction: |
+      CMB dipole ≠ radio source dipole in direction/amplitude.
+      Difference measures local ∇R anisotropy.
+      
+    status: Natural prediction in Praesto, anomaly in standard model
+
+# ==============================================================================
+# OLBERS' PARADOX RESOLUTION
+# ==============================================================================
+
+olbers_resolution:
+  
+  classical_paradox:
+    problem: |
+      Infinite eternal universe filled with stars
+      → Infinite accumulated light
+      → Sky should be bright as stellar surface
+      But: Night sky is dark
+      
+  standard_resolution:
+    expansion: Redshift dilutes light (cosmological redshift)
+    finite_age: Only finite lookback time contributes
+    
+  praesto_resolution:
+    mechanism: Substrate as lossy medium with frequency-dependent damping
+    
+    damping_law:
+      low_frequency: |
+        Long-wavelength (λ >> ξ) modes:
+        Healing length ξ acts as scattering scale.
+        Long waves interact more with substrate.
+        Higher attenuation per unit distance.
+        
+      high_frequency: |
+        Short-wavelength (λ << ξ) modes:
+        Pass through substrate with less interaction.
+        Lower attenuation per unit distance.
+        
+      formula: γ_eff(λ) ∝ (λ/ξ)^n for λ > ξ
+      
+    outcome:
+      low_energy_photons: |
+        Starlight (visible) redshifts to IR/microwave over Gpc.
+        Increasingly damped as wavelength grows.
+        Eventually absorbed into substrate.
+        
+      thermalization: |
+        Absorbed energy doesn't disappear.
+        Converts to incoherent tik background.
+        Thermalizes to CMB equilibrium temperature.
+        "Recycling" of ancient starlight into CMB bath.
+        
+      infinite_path_integral: |
+        ∫₀^∞ I_star(r)·exp(-∫₀^r γ_eff(λ(s)) ds) dr = finite
+        Even with infinite stars, damping prevents divergence.
+        
+    dark_sky_result: |
+      Night sky dark because substrate dissipative.
+      Not because universe young or expanding.
+      CMB is thermalized remnant of all past starlight.
+      
+  testable_difference:
+    
+    olbers_spectrum:
+      standard: Sharp cutoff from expansion redshift
+      praesto: Smooth exponential rolloff from damping
+      
+    test: |
+      Measure diffuse background spectrum from UV → radio.
+      Look for characteristic damping signature.
+      
+    prediction: |
+      Praesto: γ_eff(λ) measurable from background spectrum shape.
+      Standard: No such signature (abrupt cutoff only).
+
+# ==============================================================================
+# CRITICAL TESTS
+# ==============================================================================
+
+discriminating_observations:
+  
+  tier_1_falsifiable:
+    
+    tolman_surface_brightness:
+      standard: SB ∝ (1+z)^(-4) (expansion + area)
+      praesto: SB ∝ (1+z)^(-3) (dissipation + geometry)
+      
+      dataset: JWST high-z galaxies
+      status: Active analysis, hints of shallower dimming
+      impact: Immediate falsification if (1+z)^(-4) confirmed
+      
+    cmb_temperature_constancy:
+      standard: T_CMB(z) = T₀(1+z) exactly
+      praesto: T_CMB(z) = T₀(1+z)^(αβ) with αβ ≈ 1 but can vary
+      
+      dataset: Molecular rotational excitation at high-z
+      status: Current data: (1+z)^(0.989±0.012)
+      impact: If αβ ≠ 1 significantly, standard expansion fails
+      
+  tier_2_supporting:
+    
+    kolmogorov_turbulence:
+      prediction: CMB bispectrum shows turbulence signature
+      standard: Purely Gaussian (no turbulence)
+      
+      dataset: Planck bispectrum analysis
+      status: Some non-Gaussian hints, needs confirmation
+      
+    b_mode_turbulence_correlation:
+      prediction: B-mode power ∝ velocity dispersion (Ξ proxy)
+      standard: B-modes from primordial gravitational waves only
+      
+      dataset: Planck/BICEP + peculiar velocity surveys
+      status: Testable with cross-correlation
+      
+    environmental_t_variation:
+      prediction: T_CMB slightly higher in dense regions (high R)
+      standard: T_CMB constant everywhere (after Doppler correction)
+      
+      dataset: CMB temperature in clusters vs voids
+      status: Requires high-precision measurements
+      
+  tier_3_novel:
+    
+    dipole_radio_mismatch:
+      prediction: Radio source dipole ≠ CMB kinematic dipole
+      standard: Should match (both from motion)
+      
+      dataset: Radio source counts vs CMB dipole
+      status: 2-4× excess observed (supports Praesto)
+      
+    olbers_spectrum_shape:
+      prediction: Smooth exponential damping in background
+      standard: Sharp cutoff from expansion
+      
+      dataset: Diffuse background UV → radio
+      status: Requires sensitive all-sky survey
+
+# ==============================================================================
+# ADVANTAGES & CHALLENGES
+# ==============================================================================
+
+framework_advantages:
+  
+  no_inflation_needed:
+    horizon_problem: Solved by eternal substrate (naturally homogenized)
+    flatness_problem: Solved by substrate self-organization
+    initial_conditions: No fine-tuning required
+    
+  no_expansion_tension:
+    hubble_constant: H₀ variations natural from path-dependence
+    early_late_mismatch: Expected from varying R(z)
+    
+  unified_mechanism:
+    cmb_source: Same tik background as particles, forces
+    temperature: Emergent from leakage equilibrium
+    anisotropies: From current structure, not ancient
+    
+  natural_predictions:
+    dipole_mismatch: Intrinsic ∇R component natural
+    shallow_dimming: Dissipative (1+z)^(-3) vs expansion (1+z)^(-4)
+    environmental_t: T_CMB ∝ R(r) naturally varies
+    
+framework_challenges:
+  
+  radical_departure:
+    psychological: Requires abandoning expansion paradigm
+    institutional: 50+ years of ΛCDM infrastructure
+    
+  observational_subtlety:
+    differences: Often small (10-20% effects)
+    systematics: Hard to distinguish from ΛCDM
+    
+  theoretical_work_needed:
+    detailed_predictions: CMB power spectrum from Praesto
+    numerical_simulations: Full cosmological evolution
+    particle_physics: Complete Standard Model derivation
+
+# ==============================================================================
+# STRATEGIC POSITIONING
+# ==============================================================================
+
+presentation_strategy:
+  
+  present_as:
+    testable_alternative: Not replacement, but parallel hypothesis
+    specific_predictions: Focus on falsifiable differences
+    data_driven: Emphasize observational discriminators
+    
+  avoid:
+    dogmatic_claims: Don't assert "ΛCDM is wrong"
+    premature_victory: "Some hints" ≠ "confirmed"
+    unfalsifiable_statements: Always provide tests
+    
+  engagement_pathway:
+    tier_1: CMB specialists (surface brightness, temperature scaling)
+    tier_2: Observational cosmologists (Hubble tension, dipole)
+    tier_3: Theorists (if observations support Praesto)
+    
+  key_message: |
+    "Praesto offers testable alternative interpretation of CMB.
+    Critical tests available NOW with existing/near-future data.
+    Results will either falsify Praesto or challenge standard model.
+    Either outcome advances understanding."
+
+# ==============================================================================
+# SUMMARY
+# ==============================================================================
+
+executive_summary:
+  
+  core_claim: |
+    CMB = steady-state acoustic floor of eternal substrate,
+    not relic radiation from hot Big Bang.
+    
+  key_mechanisms:
+    - Continuous tik thermalization → blackbody
+    - Vortex leakage → heating
+    - Radiation → cooling
+    - Equilibrium → T_CMB ≈ 2.7 K
+    - Current R(r), Ξ(r) → anisotropies
+    - Substrate resonances → acoustic peaks
+    
+  critical_tests:
+    - Surface brightness: (1+z)^(-3) vs (1+z)^(-4)
+    - Temperature: (1+z)^(αβ) with αβ ≈ 1 but variable
+    - B-modes: Correlate with turbulence
+    - Dipole: Mismatch with radio sources
+    
+  status: |
+    Speculative but falsifiable.
+    Some observational hints supportive.
+    Requires rigorous testing before acceptance.
+    
+  recommendation: |
+    Present alongside standard interpretation.
+    Emphasize testability, not correctness.
+    Let observations decide.
+
+# ==============================================================================
+# END CMB SUPPLEMENT
+# ==============================================================================
