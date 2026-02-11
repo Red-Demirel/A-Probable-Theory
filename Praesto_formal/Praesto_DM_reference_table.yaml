@@ -1,0 +1,115 @@
+# ==============================================================================
+# DARK MATTER CANDIDATES: PRAESTO REINTERPRETATION
+# ==============================================================================
+# This section maps the standard particle‑based dark matter taxonomy onto
+# Praesto's fluid‑dynamical substrate mechanisms. No particles are required;
+# each "candidate" is an observational signature of one or more substrate effects.
+
+dark_matter_mapping:
+
+  cold_dark_matter_cdm:
+    standard_description: |
+      Non‑relativistic, collisionless particles (e.g., WIMPs, axions)
+      that clump on all scales and dominate gravitational potential.
+    praesto_reality: |
+      **Composite of three substrate effects:**
+      1. Substrate wake – trailing momentum deficit acts as extended mass.
+      2. Machian inertia – integrated R from surrounding structure enhances m_eff.
+      3. Free vortex charge – solo vortices provide EM binding, especially in spirals.
+    observable_consistency: |
+      - Flat rotation curves (wake + charge + phonons)
+      - Gravitational lensing (wake R‑field)
+      - Structure formation from stochastic seeding (no fine‑tuning)
+    distinctive_prediction: |
+      Rotation curve asymmetry (trailing > leading) – impossible for CDM.
+
+  weakly_interacting_massive_particles_wimps:
+    standard_description: |
+      Hypothetical particles interacting via weak force and gravity;
+      primary CDM candidate, extensively searched for in direct detection.
+    praesto_reality: |
+      **Unnecessary.** The mass‑equivalent effects arise from:
+      - Substrate drag (wake) – no particle, only field momentum deficit.
+      - Impedance elevation (R) – no cross‑section to measure.
+      Direct detection experiments will continue to see null results.
+    observable_consistency: |
+      - Null results from XENON, LUX, PandaX, CDMS.
+      - Annihilation signal absence (Fermi, AMS‑02).
+    distinctive_prediction: |
+      Permanent null results – not because DM is “feebly interacting”,
+      but because it is not a particle at all.
+
+  axions:
+    standard_description: |
+      Ultra‑light scalar particles, coherent field behaviour;
+      proposed to solve strong CP problem and as CDM candidate.
+    praesto_reality: |
+      **Not required.** Coherent field phenomena are already present:
+      - Superfluid phonons (collective density waves at low a).
+      - p_env modulations (Higgs–like breathing mode).
+      Axion‑like effects (e.g., birefringence) may appear as substrate
+      impedance fluctuations, but without a new particle.
+    observable_consistency: |
+      - No definitive axion detection (ADMX, CAST, etc.).
+      - MOND‑like behaviour at galactic scales (phonon coherence).
+    distinctive_prediction: |
+      Environmental dependence of “axion‑like” signatures – vary with
+      local R and Ξ, not a universal constant.
+
+  hot_dark_matter_hdm:
+    standard_description: |
+      Relativistic particles (e.g., sterile neutrinos) that suppress
+      small‑scale structure; largely ruled out.
+    praesto_reality: |
+      **Not applicable.** No fast‑moving particle component exists.
+      Small‑scale suppression in Praesto comes from:
+      - Phonon coherence length (ξ_phonon ~ c/H₀).
+      - Hysteresis threshold (S_unlock) preventing over‑fragmentation.
+    observable_consistency: |
+      - Observed abundance of dwarf galaxies (no missing satellites problem).
+    distinctive_prediction: |
+      Suppression scale tied to a₀, not particle mass.
+
+  self_interacting_dark_matter_sidm:
+    standard_description: |
+      CDM with finite self‑interaction cross‑section to explain
+      cored density profiles and diversity of rotation curves.
+    praesto_reality: |
+      **Emergent collisionality** from vortex–vortex interactions:
+      - In high‑Ξ regions (mergers, galaxy cores), free vortices interact
+        via magnetic coupling and close encounters.
+      - This produces an effective “collisional” behaviour without new forces.
+    observable_consistency: |
+      - Cored density profiles (observed, not cusps).
+      - Diversity of rotation curves (depends on free vortex density).
+    distinctive_prediction: |
+      “Self‑interaction” strength correlates with Ξ and B‑field coherence,
+      not with a fixed cross‑section.
+
+  primordial_black_holes_pbh:
+    standard_description: |
+      Black holes formed in the early universe; can constitute some/all DM.
+    praesto_reality: |
+      **Not needed.** Structure seeds from stochastic tik background:
+      - Vortex nucleation in high‑S regions (no need for rare, dense fluctuations).
+      - Growth via positive feedback (vortices → higher Ξ → easier nucleation).
+      - No horizon problem; seeds are present everywhere.
+    observable_consistency: |
+      - No conclusive PBH detection (microlensing, Hawking radiation limits).
+    distinctive_prediction: |
+      Structure formation proceeds hierarchically from substrate turbulence,
+      not from primordial density spikes.
+
+  modified_gravity_mond_teves:
+    standard_description: |
+      Alterations to Einstein gravity at low accelerations to remove DM.
+    praesto_reality: |
+      **Not a modification – an emergent phenomenon.**
+      Superfluid phonons become coherent below a₀ = c·H₀,
+      producing an apparent boost to gravity exactly mimicking MOND.
+    observable_consistency: |
+      - Tully‑Fisher relation v⁴ ∝ M.
+      - Radial acceleration relation (RAR) with characteristic scale a₀.
+    distinctive_prediction: |
+      a₀ emerges from phonon physics and should vary slightly with
+      environmental R (testable via strong‑lensing time delays).

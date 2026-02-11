@@ -1,0 +1,115 @@
+# ==============================================================================
+# GLOSSARY OF PRAESTO TERMS
+# ==============================================================================
+# Core vocabulary used throughout the framework.
+# All quantities are derived from the primitive momentum field p(r,t).
+
+glossary:
+
+  p:
+    term: Momentum density field
+    definition: |
+      The primitive, continuous field from which all structure emerges.
+      Only gradients (∇p) and curvatures (∇²p) are physically observable.
+
+  p_env:
+    term: Environmental average
+    definition: |
+      Local baseline momentum, averaged over the healing length ξ(r).
+      Acts as the reference for anomaly measurement and sets impedance scale.
+
+  S:
+    term: Anomaly
+    definition: |
+      Local deviation from environmental momentum: S = |p – p_env|.
+      Measures “how much structure differs from its surroundings”.
+
+  R:
+    term: Resistance / Impedance
+    definition: |
+      Substrate’s opposition to momentum redistribution.
+      R = p_env · κ · (1 + β·Ξ). High R → sluggish dynamics, slow clocks,
+      stronger refraction (gravity).
+
+  Ξ:
+    term: Complexity / Turbulence index
+    definition: |
+      Dimensionless measure of small‑scale structure:
+      Ξ = |∇×p|²/|p|² + (∇ρ)²/ρ².
+      High Ξ → more vortices, easier nucleation, greater dissipation.
+
+  V:
+    term: Potential gradient
+    definition: |
+      Magnitude of momentum gradient: V = |∇p|.
+      Drives flow; repulsive component in refraction (Rule 5).
+
+  Φ:
+    term: Flow capacity
+    definition: |
+      Local process rate: Φ = V/R.
+      Determines proper time increment: dτ = Φ·dt.
+      High Φ → fast processes, rapid clocks; low Φ → time dilation.
+
+  ξ:
+    term: Healing length
+    definition: |
+      Self‑consistent averaging scale for p_env.
+      ξ(r) = ℏ/√(m·c·p_env). Dynamic, environment‑dependent.
+
+  substrate_wake:
+    term: Substrate wake
+    definition: |
+      Momentum deficit trailing a moving structure (galaxy, cluster).
+      Elevated R in the wake produces gravitational refraction (Rule 5).
+      Primary component of apparent dark matter on galaxy scales.
+
+  free_vortex:
+    term: Free vortex / Solo vortex
+    definition: |
+      Unpaired topological defect with net circulation (winding number n ≠ 0).
+      Carries emergent charge: q = e·n.
+      Accumulates in high‑Ξ regions (galaxy formation, mergers).
+
+  magnetic_coupling:
+    term: Magnetic coupling / B‑field tension
+    definition: |
+      Ordered B‑fields, anchored by SMBH spin, align free vortices.
+      Magnetic tension (B·∇B) elevates local R, providing centripetal force.
+      Realises the “EM binding” contribution to dark matter.
+
+  phonon_coherence:
+    term: Superfluid phonon coherence
+    definition: |
+      Collective density waves in the substrate.
+      Below acceleration a₀ = c·H₀, coherence length exceeds galactic scale,
+      producing an apparent gravitational boost (MOND‑like behaviour).
+
+  machian_inertia:
+    term: Machian inertia
+    definition: |
+      Effective mass enhancement from integrated impedance over causal volume:
+      m_eff ∝ m₀ · [1 + ∫ R(r')/R₀ d³r'].
+      Galaxies in dense environments (clusters, filaments) exhibit higher R
+      and thus greater inertia.
+
+  tik_background:
+    term: Stochastic tik background
+    definition: |
+      Continuous, isotropic bath of density ripples (compression–rarefaction pulses).
+      Origin: quantum zero‑point fluctuations and thermal leakage from vortices.
+      Sustains the CMB as a steady‑state acoustic echogram.
+
+  topological_leakage:
+    term: Topological leakage
+    definition: |
+      Irreversible power loss from vortices maintaining circulation against drag.
+      Leaked energy thermalises into the tik background.
+      Microscopic origin of entropy production and the arrow of time.
+
+  rule_5_refraction:
+    term: Rule 5 refraction
+    definition: |
+      Trajectories follow gradients of flow capacity:
+      d²x/dt² = –c²·∇ln(Φ) = –c²·[∇ln(V) – ∇ln(R)].
+      Gravity emerges from ∇R (attractive); anti‑collapse from ∇V (repulsive).
