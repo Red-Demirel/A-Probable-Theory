@@ -13,7 +13,7 @@ While **Zloshchastiev** gave us the logarithmic superfluid math and **Unnikrishn
 
 The substrate we named **Praesto** (Prae Esto here can be understood as "It is there") is not 'something added' to empty space; it is the necessary plenum which makes space and matter possible in the first place.
 
-The current version is 5.1b; it underwent several improvements while still largely based on the previous 'A Probable Theory'.
+The current version is 5.1d; it underwent several improvements while still largely based on the previous 'A Probable Theory'.
 
 ---
 
@@ -58,6 +58,21 @@ The framework in v5.1b is designed to be immediately testable via current observ
 One implication of Praesto is epistemic: knowledge behaves like organized momentum in the substrate. Sharing and refining accurate models lowers resistance **(R)**, allowing resonance and self-catalytic growth - higher collective phase tempo, faster adaptation. Restricting or distorting knowledge raises **R**, injects dissonance (Spare Tiks), and increases unnecessary dissipation — slowing evolution, risking stagnation or decay.
 
 In a very real sense, open inquiry isn't just a value, it's thermodynamically favored. Societies that multiply coherence outcompete those that hoard or fragment it. The substrate doesn't care about our politics; it only rewards structures that persist against entropy.
+
+## Current Version: Praesto v5.1d (as of February 11, 2026)
+
+The most recent formal document is `praesto_v5.1d_refined.yaml`.
+
+### Key Changes from v5.1b → v5.1d
+- **Dark matter fully layered**: Now a composite of substrate wakes (~2–3×), magnetic tension (~1.5–2.5×), free vortex charge (~0.5–1×), superfluid phonons (~1–2×), and Machian inertia enhancement (~1×) — total 5–10× visible baryonic mass, no exotics required.
+- **Quantum hydrodynamics foundation**: Substrate modeled as superfluid with Madelung transform, quantized circulation, and charge from vortex chirality.
+- **Baryon asymmetry mechanism**: Emerges from environmental ∇p gradient biasing vortex alignment (aligned stable → matter; opposed decay → antimatter), yielding η ≈ 6×10⁻¹⁰ without fine-tuning.
+- **EM identity refined**: Electric charge as radial winding number n; magnetic fields as collective ∇×p vorticity; interactions via topological meshing (fluid-dynamic, no separate force).
+- **Galactic stiffness**: B-fields + plasma response add centripetal support, reducing dark matter need to 1–2× baryonic in some models.
+- **Tighter predictions**: Rotation curve asymmetry (10–20%), B-field correlation with rotation amplitude, environmental α_EM/CP-violation gradients.
+- **Parameter economy**: Still only 1 free parameter (γ) + 4 computable (α, β, κ, λ).
+
+Full details in `praesto_v5.1d_refined.yaml`. Earlier versions (v5.1a–c) remain for reference.
 
 ## Citation
 If you use or extend this work:
